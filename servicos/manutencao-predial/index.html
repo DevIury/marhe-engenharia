@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manutenção Predial e Industrial em Barueri | MARHE</title>
+  <meta name="description" content="Contratos de manutenção predial e industrial (facilities) em Barueri, Alphaville e Grande SP: preventiva, corretiva e SLA com ART e equipes NR-10.">
+  <meta name="keywords" content="Manutenção Predial Barueri, Manutenção Industrial Alphaville, Facilities Corporativos, Contrato de Manutenção, Manutenção Preventiva, Manutenção Corretiva">
+  <meta name="author" content="MARHE Engenharia e Construções Ltda.">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="pt-BR">
+  <link rel="canonical" href="./">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="MARHE Engenharia">
+  <meta property="og:title" content="Manutenção Predial e Industrial em Barueri | MARHE">
+  <meta property="og:description" content="Contratos de manutenção predial e industrial (facilities) em Barueri, Alphaville e Grande SP: preventiva, corretiva e SLA com ART e equipes NR-10.">
+
+  <!-- Favicon SVG Oficial MARHE -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23FFFFFF' stroke='%23E2E8F0' stroke-width='2'/%3E%3Cpath d='M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z' stroke='%23C8A020' stroke-width='6' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M50 32 L72 45 L72 70 L50 82 Z' fill='%23C8A020'/%3E%3Cpath d='M50 32 L28 45 L28 70 L50 58 Z' stroke='%230F172A' stroke-width='4' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../../assets/tailwind-config.js"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="../../assets/site.css">
+</head>
+
+<body class="font-sans antialiased selection:bg-brand-gold selection:text-black overflow-x-hidden light-glow relative">
+
+  <!-- Top Progress Bar -->
+  <div id="readingProgress"></div>
+
+  <!-- ================= TOP COMPLIANCE BAR ================= -->
+  <div class="border-b border-slate-200 bg-slate-50 text-[11px] font-mono text-slate-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-col md:flex-row items-center justify-between gap-2.5">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-700 font-semibold text-[10px]">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          HOMOLOGADO CREA-SP &bull; ART OBRIGATÓRIA
+        </span>
+        <span class="hidden sm:inline text-slate-300">|</span>
+        <span class="hidden sm:inline text-slate-600">Sede em Barueri &bull; Alphaville &bull; Grande SP</span>
+      </div>
+      <div class="flex items-center gap-5 text-slate-600">
+        <span class="hidden md:inline font-sans text-xs text-slate-500">CNPJ: 49.691.646/0001-51</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NAVIGATION BAR ================= -->
+  <header class="sticky top-0 z-50 bg-white/95 border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO (EXCLUSIVAMENTE A LOGO, SEM TEXTO AO LADO) -->
+      <a href="#home" class="spa-nav-link flex items-center group" data-page="home" aria-label="MARHE Engenharia - Página Inicial">
+        <div class="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-2 shadow-sm group-hover:border-brand-gold transition-all duration-300">
+          <svg viewBox="0 0 100 100" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#C8A020" stroke-width="6" stroke-linejoin="round" fill="none"/>
+            <path d="M50 12 L50 88" stroke="#0F172A" stroke-width="4"/>
+            <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#C8A020"/>
+            <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#0F172A" stroke-width="4" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- DESKTOP NAV TABS -->
+      <nav class="hidden lg:flex items-center gap-1 bg-slate-100/80 border border-slate-200 p-1.5 rounded-full" id="desktopNav">
+        <button data-page="home" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Home</button>
+        <button data-page="sobre" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Quem Somos</button>
+        <button data-page="servicos" data-anchor="especialidades" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Serviços & Engenharia</button>
+        <button data-page="obras" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Portfólio & Obras</button>
+        <button data-page="blog" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all flex items-center gap-1.5">
+          <span>Blog Técnico</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+        </button>
+        <button data-page="contato" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Contato & RFQ</button>
+      </nav>
+
+      <!-- CTA RIGHT -->
+      <div class="hidden lg:flex items-center gap-3">
+        <button data-page="contato" class="spa-nav-link btn-gold inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider shadow-sm hover:bg-brand-gold-hover transition-all">
+          <span class="btn-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></span>
+          <span class="text-white">Falar com Engenheiro</span>
+        </button>
+      </div>
+
+      <!-- MOBILE MENU BUTTON -->
+      <button id="menuMobileToggle" aria-label="Abrir Menu" class="lg:hidden p-2.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 hover:text-slate-900">
+        <i class="ph ph-list text-2xl" id="menuMobileIcon"></i>
+      </button>
+
+    </div>
+
+    <!-- MOBILE MENU DRAWER -->
+    <div id="menuMobileContent" class="lg:hidden" aria-hidden="true">
+      <div class="relative z-10 mb-7 flex justify-center">
+        <a href="#home" class="spa-nav-link flex items-center group" data-page="home" aria-label="MARHE Engenharia - Página Inicial">
+          <div class="w-12 h-12 md:w-20 md:h-20 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-2 md:p-3 shadow-sm group-hover:border-brand-gold transition-all duration-300">
+            <svg viewBox="0 0 100 100" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#C8A020" stroke-width="6" stroke-linejoin="round" fill="none"/>
+              <path d="M50 12 L50 88" stroke="#0F172A" stroke-width="4"/>
+              <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#C8A020"/>
+              <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#0F172A" stroke-width="4" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <nav class="relative z-10 flex flex-col">
+        <button data-page="home" class="spa-mobile-btn mobile-nav-item is-active">
+          <span class="mnum">01</span>
+          <span class="mlabel">Home</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="sobre" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">02</span>
+          <span class="mlabel">Quem Somos</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="servicos" data-anchor="especialidades" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">03</span>
+          <span class="mlabel">Serviços & Engenharia</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="obras" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">04</span>
+          <span class="mlabel">Portfólio & Obras</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="blog" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">05</span>
+          <span class="mlabel">Blog Técnico</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="contato" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">06</span>
+          <span class="mlabel">Contato & RFQ</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+      </nav>
+      <button data-page="contato" class="spa-nav-link btn-gold mobile-cta relative z-10 w-full mt-9 flex items-center justify-center gap-2.5 py-4 rounded-2xl bg-brand-gold text-white font-title font-bold text-sm uppercase tracking-wider hover:bg-brand-gold-hover transition-all">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[18px] h-[18px] shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></span>
+        <span>Falar com Engenheiro</span>
+      </button>
+      <div class="mobile-meta relative z-10 mt-6 flex items-center justify-between font-mono text-[10px] text-slate-500 uppercase tracking-widest">
+        <span>CREA-SP Ativo</span>
+        <span>Barueri &bull; Alphaville</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- TRILHA DE NAVEGACAO -->
+    <nav aria-label="Trilha de navegação" class="border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 font-mono text-[11px] text-slate-500 flex flex-wrap items-center gap-2">
+        <a href="../../index.html" class="hover:text-brand-gold transition-colors">Início</a>
+        <span class="text-slate-300">/</span>
+        <a href="../../index.html#servicos" class="hover:text-brand-gold transition-colors">Serviços</a>
+        <span class="text-slate-300">/</span>
+        <span class="text-slate-800 font-bold">Manutenção Predial</span>
+      </div>
+    </nav>
+
+    <!-- HERO DO SERVICO -->
+    <section class="py-14 sm:py-20 bg-white border-b border-slate-200 relative overflow-hidden">
+      <!-- Logo watermark -->
+      <svg id="heroWatermark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute; right:-25px; top:calc(10% - 80px); width:min(340px, 85vw); height:auto; opacity:0.06; pointer-events:none; user-select:none; z-index:0; will-change: transform;" class="md:!right-[calc(8%-25px)] lg:!right-[calc(14%-25px)] md:!top-[calc(15%-80px)] md:!w-[420px] lg:!w-[520px]">
+        <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#0F172A" stroke-width="4" stroke-linejoin="round" fill="none"/>
+        <path d="M50 12 L50 88" stroke="#0F172A" stroke-width="3"/>
+        <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#0F172A"/>
+        <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#0F172A" stroke-width="3" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(700px circle at 85% 0%, rgba(200, 160, 32, 0.07), transparent 60%);"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-4xl">
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-4">FACILITIES &bull; PREVENTIVA &amp; CORRETIVA</span>
+          <h1 class="font-title font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-slate-900 leading-[1.08] mb-6">Manutenção Predial &amp; Industrial (Facilities Corporativos)</h1>
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mb-9">Contratos recorrentes de facilities para edifícios corporativos e galpões logísticos, com rotinas de vistoria periódica, SLA rígido e equipes homologadas para manter as instalações conformes e a operação sem interrupções.</p>
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+            <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20contrato%20de%20manuten%C3%A7%C3%A3o%20predial%2Findustrial%20(facilities)%20com%20a%20MARHE." target="_blank" rel="noopener" class="btn-gold inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-brand-gold text-white font-title font-bold text-sm tracking-wide uppercase transition-all duration-300 hover:bg-brand-gold-hover shadow-md shadow-amber-500/10">
+              <span>Solicitar Orçamento</span>
+              <span class="btn-arrow"><i class="ph-bold ph-arrow-right text-base"></i></span>
+            </a>
+            <a href="../../index.html#contato" class="btn-outline inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl bg-white border border-slate-300 text-slate-800 font-semibold text-sm">
+              <span class="btn-icon"><i class="ph-bold ph-file-text text-base text-brand-gold"></i></span>
+              <span>Enviar Briefing / RFP</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESCOPO -->
+    <section class="py-16 sm:py-20 border-b border-slate-200 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+              <div class="metric-reveal">
+                <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Manutenção Preventiva Programada:</h3>
+                <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Vistorias periódicas das instalações elétricas e hidrossanitárias</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Termografia e medições preventivas em quadros e conexões</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Manutenção de quadros, luminárias e circuitos</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Manutenção de prumadas, bombas e registros</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Plano de ação para não conformidades detectadas</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Relatórios periódicos com histórico técnico</li>
+                </ul>
+              </div>
+
+              <div class="metric-reveal">
+                <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Manutenção Corretiva &amp; Emergências:</h3>
+                <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Atendimento a ocorrências em turnos especiais</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Reparos elétricos e hidráulicos com ART emitida</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Substituição de componentes em quadros e bombas</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Atendimento a falhas em janelas críticas de produção</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Suporte a reformas e adequações emergenciais</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Prontuário técnico atualizado a cada intervenção</li>
+                </ul>
+              </div>
+
+          <div class="metric-reveal p-6 rounded-2xl bg-white border border-slate-200 flex flex-col justify-between shadow-sm" style="transition-delay: 0.2s">
+            <div>
+              <span class="font-mono text-[10px] text-brand-dark uppercase font-bold">Garantia &amp; Homologação</span>
+              <div class="font-title font-bold text-base text-slate-900 mt-1 mb-2"><span class="counter" data-count="100" data-suffix="%">100%</span> com ART Registrada</div>
+              <p class="text-xs text-slate-600 leading-relaxed">Contratos com SLA rígido e metas de resposta definidas em contrato para cada tipo de ocorrência.</p>
+            </div>
+            <div class="pt-4 border-t border-slate-100 font-mono text-[11px] text-slate-500">
+              Responsável Técnico: CREA-SP
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-14">
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-4">Fundamentos técnicos</span>
+          <p class="text-sm text-slate-600 leading-relaxed max-w-4xl mb-8">
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">Manutenção reativa custa caro: quebra não planejada, multa contratual e parada de linha. O modelo da MARHE é baseado em vistoria periódica, registro de não conformidades e plano de ação — prevenindo falhas elétricas e hidráulicas antes que elas interrompam a operação.</p>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">Os contratos de facilities atendem edifícios corporativos, condomínios de grande porte e galpões logísticos em Barueri, Alphaville, Tamboré, Osasco, Grande São Paulo e Campinas, com equipe técnica homologada em NR-10 e NR-35 e emissão de ART em todos os serviços.</p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- NORMAS -->
+    <section class="py-16 sm:py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-10">
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Conformidade normativa</span>
+          <h2 class="font-title font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Normas &amp; documentação aplicáveis</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold transition-all duration-300">
+            <div class="font-mono text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5">NR-10</div>
+            <p class="text-xs text-slate-600 leading-relaxed">Segurança em instalações e serviços com eletricidade executados pela equipe</p>
+          </div>
+          <div class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold transition-all duration-300">
+            <div class="font-mono text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5">NR-35</div>
+            <p class="text-xs text-slate-600 leading-relaxed">Trabalho em altura em fachadas, coberturas e estruturas</p>
+          </div>
+          <div class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold transition-all duration-300">
+            <div class="font-mono text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5">NBR 16280</div>
+            <p class="text-xs text-slate-600 leading-relaxed">Reformas em edificações com parecer técnico de responsável legal</p>
+          </div>
+          <div class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold transition-all duration-300">
+            <div class="font-mono text-xs font-bold text-brand-dark uppercase tracking-wider mb-1.5">ART / CREA-SP</div>
+            <p class="text-xs text-slate-600 leading-relaxed">Responsabilidade técnica formal em todos os serviços contratados</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ETAPAS -->
+    <section class="py-16 sm:py-20 border-b border-slate-200 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-10">
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Método de trabalho</span>
+          <h2 class="font-title font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Como executamos o serviço</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200" style="transition-delay: 0s">
+            <div class="font-mono text-[11px] font-bold text-brand-gold tracking-widest mb-3">ETAPA 01</div>
+            <h3 class="font-title font-bold text-base text-slate-900 mb-2">Diagnóstico e inventário</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Levantamento dos sistemas prediais, histórico de falhas e priorização de riscos.</p>
+          </div>          <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200" style="transition-delay: 0.1s">
+            <div class="font-mono text-[11px] font-bold text-brand-gold tracking-widest mb-3">ETAPA 02</div>
+            <h3 class="font-title font-bold text-base text-slate-900 mb-2">Plano de manutenção com SLA</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Definição de periodicidades, escopo, horários de atendimento e metas de resposta.</p>
+          </div>          <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200" style="transition-delay: 0.2s">
+            <div class="font-mono text-[11px] font-bold text-brand-gold tracking-widest mb-3">ETAPA 03</div>
+            <h3 class="font-title font-bold text-base text-slate-900 mb-2">Execução e registros</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Rotinas de vistoria e intervenções com ordem de serviço, fotos e ART quando aplicável.</p>
+          </div>          <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200" style="transition-delay: 0.3s">
+            <div class="font-mono text-[11px] font-bold text-brand-gold tracking-widest mb-3">ETAPA 04</div>
+            <h3 class="font-title font-bold text-base text-slate-900 mb-2">Relatório e melhoria contínua</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">Indicadores de ocorrências, pendências e recomendações em ciclo de revisão periódico.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AREA DE ATENDIMENTO -->
+    <section class="py-14 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+        <div>
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-2">Área de atendimento</span>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed max-w-3xl">
+            Executamos manutenção predial com mobilização técnica imediata em <strong class="text-slate-900">Barueri, Alphaville, Tamboré, Osasco, Grande São Paulo e Campinas</strong>, com sede operacional em Barueri/SP e emissão de ART perante o CREA-SP.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 shrink-0">
+          <span class="font-mono text-[11px] px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">Barueri</span>
+          <span class="font-mono text-[11px] px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">Alphaville</span>
+          <span class="font-mono text-[11px] px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">Tamboré</span>
+          <span class="font-mono text-[11px] px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">Osasco</span>
+          <span class="font-mono text-[11px] px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200 text-slate-700">Campinas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 sm:py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-4">
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Perguntas frequentes</span>
+          <h2 class="font-title font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight mb-4">Dúvidas técnicas sobre o serviço</h2>
+          <p class="text-sm text-slate-600 leading-relaxed">Não encontrou o que precisava? Fale diretamente com o departamento de engenharia — a resposta sai em até 24 horas.</p>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20contrato%20de%20manuten%C3%A7%C3%A3o%20predial%2Findustrial%20(facilities)%20com%20a%20MARHE." target="_blank" rel="noopener" class="btn-gold mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+            Tirar dúvida no WhatsApp
+          </a>
+        </div>
+        <div class="lg:col-span-8">
+          <details class="faq-item group">
+            <summary class="flex items-start justify-between gap-6 cursor-pointer list-none font-title font-bold text-slate-900 text-base sm:text-lg">
+              <span>O que está incluído em um contrato de facilities?</span>
+              <i class="ph-bold ph-arrow-down text-brand-gold shrink-0 mt-1 transition-transform duration-300 group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-3 text-sm text-slate-600 leading-relaxed max-w-3xl">O contrato define as rotinas de vistoria preventiva, a manutenção corretiva de instalações elétricas e hidráulicas, os prazos de atendimento (SLA) e os relatórios técnicos entregues no ciclo acordado. O escopo é dimensionado conforme a área e a criticidade da operação.</p>
+          </details>
+          <details class="faq-item group">
+            <summary class="flex items-start justify-between gap-6 cursor-pointer list-none font-title font-bold text-slate-900 text-base sm:text-lg">
+              <span>As manutenções são feitas com emissão de ART?</span>
+              <i class="ph-bold ph-arrow-down text-brand-gold shrink-0 mt-1 transition-transform duration-300 group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-3 text-sm text-slate-600 leading-relaxed max-w-3xl">Sim. Intervenções elétricas e serviços que exigem responsabilidade técnica são acompanhados da emissão da ART registrada no CREA-SP, com registro de execução no prontuário técnico do imóvel.</p>
+          </details>
+          <details class="faq-item group">
+            <summary class="flex items-start justify-between gap-6 cursor-pointer list-none font-title font-bold text-slate-900 text-base sm:text-lg">
+              <span>Vocês atendem emergências fora do horário comercial?</span>
+              <i class="ph-bold ph-arrow-down text-brand-gold shrink-0 mt-1 transition-transform duration-300 group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-3 text-sm text-slate-600 leading-relaxed max-w-3xl">Sim. A equipe atua em turnos especiais e janelas críticas, com protocolo de atendimento definido em contrato, para conter falhas sem comprometer a continuidade da produção.</p>
+          </details>
+          <details class="faq-item group">
+            <summary class="flex items-start justify-between gap-6 cursor-pointer list-none font-title font-bold text-slate-900 text-base sm:text-lg">
+              <span>O contrato cobre condomínios residenciais?</span>
+              <i class="ph-bold ph-arrow-down text-brand-gold shrink-0 mt-1 transition-transform duration-300 group-open:rotate-180"></i>
+            </summary>
+            <p class="mt-3 text-sm text-slate-600 leading-relaxed max-w-3xl">Sim. Além de indústrias e galpões, a MARHE atende condomínios residenciais de grande porte e edifícios corporativos, com escopo de preventiva e corretiva ajustado à rotina do síndico e da administradora.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- VEJA TAMBEM -->
+    <section class="py-14 border-b border-slate-200 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-5">Outras especialidades MARHE</span>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <a href="../eletrica/" class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:-translate-y-1 transition-all duration-300 block group"><span class="font-mono text-[11px] text-brand-dark font-bold uppercase tracking-wider block mb-1">Instalações Elétricas</span><span class="font-title font-bold text-slate-900 group-hover:text-brand-gold transition-colors">Instalações Elétricas Industriais &amp; Comerciais em Barueri <i class="ph-bold ph-arrow-right"></i></span></a>
+            <a href="../hidraulica-avcb/" class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:-translate-y-1 transition-all duration-300 block group"><span class="font-mono text-[11px] text-brand-dark font-bold uppercase tracking-wider block mb-1">Hidráulica & AVCB</span><span class="font-title font-bold text-slate-900 group-hover:text-brand-gold transition-colors">Engenharia Hidráulica &amp; Combate a Incêndio (AVCB) <i class="ph-bold ph-arrow-right"></i></span></a>
+            <a href="../laudos-nbr-16280/" class="metric-reveal p-5 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:-translate-y-1 transition-all duration-300 block group"><span class="font-mono text-[11px] text-brand-dark font-bold uppercase tracking-wider block mb-1">Laudos NBR 16280</span><span class="font-title font-bold text-slate-900 group-hover:text-brand-gold transition-colors">Laudos Técnicos &amp; Inspeção Predial (NBR 16280) <i class="ph-bold ph-arrow-right"></i></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="py-16 bg-slate-900 relative overflow-hidden">
+      <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(600px circle at 85% 20%, rgba(200, 160, 32, 0.10), transparent 60%);"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+        <div class="max-w-2xl">
+          <span class="font-mono text-xs font-bold text-brand-gold uppercase tracking-widest block mb-3">Plantão técnico</span>
+          <h2 class="font-title font-extrabold text-3xl sm:text-4xl text-white tracking-tight mb-3">Precisa deste serviço agora?</h2>
+          <p class="text-slate-400 text-sm sm:text-base leading-relaxed">Envie as medidas, fotos ou o briefing da obra. O departamento de engenharia da MARHE responde em até 24 horas com os próximos passos.</p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4 shrink-0">
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20contrato%20de%20manuten%C3%A7%C3%A3o%20predial%2Findustrial%20(facilities)%20com%20a%20MARHE." target="_blank" rel="noopener" class="btn-gold inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl bg-brand-gold text-white font-title font-bold text-sm uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-md">
+            Falar no WhatsApp
+          </a>
+          <a href="../../index.html#contato" class="btn-outline inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl bg-transparent border border-slate-600 text-white font-semibold text-sm hover:border-brand-gold transition-all">
+            Enviar RFP Formal
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= BOTÃO FLUTUANTE WHATSAPP ================= -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20MARHE%20Engenharia." target="_blank" rel="noopener" aria-label="Falar no WhatsApp" class="fixed bottom-6 right-6 z-40 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-lg shadow-emerald-600/30 hover:bg-[#1EA952] active:scale-95 transition-all duration-300">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-7 h-7"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <footer class="relative border-t-2 border-brand-gold/40 bg-slate-900 pt-16 pb-10 text-xs font-sans text-slate-400 overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(600px circle at 15% 0%, rgba(200, 160, 32, 0.07), transparent 60%);"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-14">
+        <div class="space-y-5">
+          <button data-page="home" class="spa-nav-link flex items-center gap-3 group text-left" aria-label="MARHE — Página Inicial">
+            <div class="w-12 h-12 rounded-2xl bg-slate-800 border border-slate-700 group-hover:border-brand-gold group-hover:shadow-lg group-hover:shadow-amber-500/10 flex items-center justify-center p-2 shrink-0 transition-all duration-300">
+              <svg viewBox="0 0 100 100" class="w-full h-full transition-transform duration-300 group-hover:scale-110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#C8A020" stroke-width="6" stroke-linejoin="round" fill="none"/>
+                <path d="M50 12 L50 88" stroke="#F8FAFC" stroke-width="4"/>
+                <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#C8A020"/>
+                <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#F8FAFC" stroke-width="4" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <div>
+              <span class="font-title font-extrabold text-xl text-white block leading-none group-hover:text-brand-gold transition-colors">MARHE</span>
+              <span class="text-brand-gold font-mono font-bold text-[11px] tracking-widest">ENGENHARIA</span>
+            </div>
+          </button>
+          <p class="leading-relaxed text-slate-400 text-xs">
+            MARHE Engenharia e Construções Ltda.<br>
+            CNPJ: 49.691.646/0001-51<br>
+            Sede Operacional: Barueri - São Paulo
+          </p>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            <div class="text-white font-title font-bold uppercase tracking-wider text-[13px]">Especialidades</div>
+          </div>
+          <ul class="space-y-2.5 font-mono text-xs text-slate-400">
+            <li><a href="../../servicos/eletrica/" class="spa-nav-link hover:text-brand-gold transition-colors inline-flex items-center gap-1.5"><span class="w-0 group-hover:w-1"></span>Elétrica Industrial</a></li>
+            <li><a href="../../servicos/hidraulica-avcb/" class="spa-nav-link hover:text-brand-gold transition-colors">Hidráulica & AVCB</a></li>
+            <li><a href="../../servicos/manutencao-predial/" class="spa-nav-link hover:text-brand-gold transition-colors">Manutenção Predial</a></li>
+            <li><a href="../../servicos/laudos-nbr-16280/" class="spa-nav-link hover:text-brand-gold transition-colors">Laudos NBR 16280</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            <div class="text-white font-title font-bold uppercase tracking-wider text-[13px]">Normas Atendidas</div>
+          </div>
+          <ul class="space-y-2.5 font-mono text-xs text-slate-400">
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>NBR 5410 &bull; NR-10 &bull; NR-35</li>
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>NBR 5626 (Instalações Hidráulicas)</li>
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>NBR 16280 (Gestão de Reformas)</li>
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>Instruções Técnicas CBMSP</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            <div class="text-white font-title font-bold uppercase tracking-wider text-[13px]">Canal Oficial</div>
+          </div>
+          <p class="text-slate-400 mb-4 text-xs leading-relaxed">Acompanhe obras diárias e laudos em campo:</p>
+          <a href="https://www.instagram.com/marheengenharia_/" target="_blank" rel="noopener" class="group inline-flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:text-white hover:border-slate-500 hover:bg-slate-700 transition-all duration-300">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-white shrink-0" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <span class="font-mono text-xs">@marheengenharia_</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[11px] text-slate-500">
+        <div>&copy; 2026 MARHE Engenharia e Construções Ltda. Todos os direitos reservados. &bull; Desenvolvido por <a href="https://deviury.com.br/" target="_blank" rel="noopener" class="text-brand-gold hover:text-white font-bold transition-colors">DevIury</a></div>
+        <div class="flex items-center gap-4 text-slate-400">
+          <span class="inline-flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>CREA-SP ATIVO</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+[{"@context":"https://schema.org","@type":"Service","name":"Engenharia Hidráulica \u0026 Combate a Incêndio (AVCB)","serviceType":"Serviços de Manutenção Predial e Industrial","description":"Contratos de manutenção predial e industrial (facilities) em Barueri, Alphaville e Grande SP: preventiva, corretiva e SLA com ART e equipes NR-10.","provider":{"@type":"Organization","name":"MARHE Engenharia e Construções Ltda.","taxID":"49.691.646/0001-51"},"areaServed":[{"@type":"City","name":"Barueri"},{"@type":"City","name":"Alphaville"},{"@type":"City","name":"Tamboré"},{"@type":"City","name":"Osasco"},{"@type":"City","name":"Grande São Paulo"},{"@type":"City","name":"Campinas"}]},
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que está incluído em um contrato de facilities?","acceptedAnswer":{"@type":"Answer","text":"O contrato define as rotinas de vistoria preventiva, a manutenção corretiva de instalações elétricas e hidráulicas, os prazos de atendimento (SLA) e os relatórios técnicos entregues no ciclo acordado. O escopo é dimensionado conforme a área e a criticidade da operação."}},{"@type":"Question","name":"As manutenções são feitas com emissão de ART?","acceptedAnswer":{"@type":"Answer","text":"Sim. Intervenções elétricas e serviços que exigem responsabilidade técnica são acompanhados da emissão da ART registrada no CREA-SP, com registro de execução no prontuário técnico do imóvel."}},{"@type":"Question","name":"Vocês atendem emergências fora do horário comercial?","acceptedAnswer":{"@type":"Answer","text":"Sim. A equipe atua em turnos especiais e janelas críticas, com protocolo de atendimento definido em contrato, para conter falhas sem comprometer a continuidade da produção."}},{"@type":"Question","name":"O contrato cobre condomínios residenciais?","acceptedAnswer":{"@type":"Answer","text":"Sim. Além de indústrias e galpões, a MARHE atende condomínios residenciais de grande porte e edifícios corporativos, com escopo de preventiva e corretiva ajustado à rotina do síndico e da administradora."}}]},
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"../../index.html"},{"@type":"ListItem","position":2,"name":"Serviços","item":"../../index.html#servicos"},{"@type":"ListItem","position":3,"name":"Manutenção Predial","item":"./"}]}]
+  </script>
+  <script src="../../assets/page.js"></script>
+</body>
+</html>

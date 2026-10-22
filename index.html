@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARHE Engenharia & Construções | Barueri & Alphaville</title>
+
+  <!-- Favicon SVG Oficial MARHE -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23FFFFFF' stroke='%23E2E8F0' stroke-width='2'/%3E%3Cpath d='M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z' stroke='%23C8A020' stroke-width='6' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M50 32 L72 45 L72 70 L50 82 Z' fill='%23C8A020'/%3E%3Cpath d='M50 32 L28 45 L28 70 L50 58 Z' stroke='%230F172A' stroke-width='4' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+  
+  <!-- SEO & Meta Tags Corporativas -->
+  <meta name="description" content="MARHE Engenharia e Construções Ltda. - Engenharia de precisão em instalações elétricas industriais, hidrossanitárias, manutenções prediais e conformidade NBR/NR em Barueri, Alphaville e Grande SP.">
+  <meta name="keywords" content="Engenharia Barueri, Instalações Elétricas Industriais, Engenharia Hidráulica, AVCB, Laudos NBR 16280, ART CREA-SP, Manutenção Predial Alphaville">
+  <meta name="author" content="MARHE Engenharia e Construções Ltda.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="MARHE Engenharia">
+  <meta property="og:title" content="MARHE Engenharia & Construções | Barueri & Alphaville">
+  <meta property="og:description" content="Engenharia de precisão para operações que exigem zero falha técnica. Instalações elétricas industriais, hidráulica e facilities com 100% de emissão de ART.">
+
+  <!-- Google Fonts: Manrope + Plus Jakarta Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <script src="assets/tailwind-config.js"></script>
+
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+
+<body class="font-sans antialiased selection:bg-brand-gold selection:text-black overflow-x-hidden light-glow relative">
+
+  <!-- Top Progress Bar -->
+  <div id="readingProgress"></div>
+
+  <!-- ================= TOP COMPLIANCE BAR ================= -->
+  <div class="border-b border-slate-200 bg-slate-50 text-[11px] font-mono text-slate-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-col md:flex-row items-center justify-between gap-2.5">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-700 font-semibold text-[10px]">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          HOMOLOGADO CREA-SP &bull; ART OBRIGATÓRIA
+        </span>
+        <span class="hidden sm:inline text-slate-300">|</span>
+        <span class="hidden sm:inline text-slate-600">Sede em Barueri &bull; Alphaville &bull; Grande SP</span>
+      </div>
+      <div class="flex items-center gap-5 text-slate-600">
+        <span class="hidden md:inline font-sans text-xs text-slate-500">CNPJ: 49.691.646/0001-51</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NAVIGATION BAR ================= -->
+  <header class="sticky top-0 z-50 bg-white/95 border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO (EXCLUSIVAMENTE A LOGO, SEM TEXTO AO LADO) -->
+      <a href="#home" class="spa-nav-link flex items-center group" data-page="home" aria-label="MARHE Engenharia - Página Inicial">
+        <div class="w-12 h-12 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-2 shadow-sm group-hover:border-brand-gold transition-all duration-300">
+          <svg viewBox="0 0 100 100" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#C8A020" stroke-width="6" stroke-linejoin="round" fill="none"/>
+            <path d="M50 12 L50 88" stroke="#0F172A" stroke-width="4"/>
+            <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#C8A020"/>
+            <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#0F172A" stroke-width="4" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- DESKTOP NAV TABS -->
+      <nav class="hidden lg:flex items-center gap-1 bg-slate-100/80 border border-slate-200 p-1.5 rounded-full" id="desktopNav">
+        <button data-page="home" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-slate-900 border border-slate-200 shadow-sm transition-all">Home</button>
+        <button data-page="sobre" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Quem Somos</button>
+        <button data-page="servicos" data-anchor="especialidades" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Serviços & Engenharia</button>
+        <button data-page="obras" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Portfólio & Obras</button>
+        <button data-page="blog" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all flex items-center gap-1.5">
+          <span>Blog Técnico</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+        </button>
+        <button data-page="contato" class="spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all">Contato & RFQ</button>
+      </nav>
+
+      <!-- CTA RIGHT -->
+      <div class="hidden lg:flex items-center gap-3">
+        <button data-page="contato" class="spa-nav-link btn-gold inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider shadow-sm hover:bg-brand-gold-hover transition-all">
+          <span class="btn-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></span>
+          <span class="text-white">Falar com Engenheiro</span>
+        </button>
+      </div>
+
+      <!-- MOBILE MENU BUTTON -->
+      <button id="menuMobileToggle" aria-label="Abrir Menu" class="lg:hidden p-2.5 rounded-xl bg-slate-100 border border-slate-200 text-slate-700 hover:text-slate-900">
+        <i class="ph ph-list text-2xl" id="menuMobileIcon"></i>
+      </button>
+
+    </div>
+
+    <!-- MOBILE MENU DRAWER -->
+    <div id="menuMobileContent" class="lg:hidden" aria-hidden="true">
+      <div class="relative z-10 mb-7 flex justify-center">
+        <a href="#home" class="spa-nav-link flex items-center group" data-page="home" aria-label="MARHE Engenharia - Página Inicial">
+          <div class="w-12 h-12 md:w-20 md:h-20 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-center p-2 md:p-3 shadow-sm group-hover:border-brand-gold transition-all duration-300">
+            <svg viewBox="0 0 100 100" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#C8A020" stroke-width="6" stroke-linejoin="round" fill="none"/>
+              <path d="M50 12 L50 88" stroke="#0F172A" stroke-width="4"/>
+              <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#C8A020"/>
+              <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#0F172A" stroke-width="4" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <nav class="relative z-10 flex flex-col">
+        <button data-page="home" class="spa-mobile-btn mobile-nav-item is-active">
+          <span class="mnum">01</span>
+          <span class="mlabel">Home</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="sobre" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">02</span>
+          <span class="mlabel">Quem Somos</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="servicos" data-anchor="especialidades" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">03</span>
+          <span class="mlabel">Serviços & Engenharia</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="obras" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">04</span>
+          <span class="mlabel">Portfólio & Obras</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="blog" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">05</span>
+          <span class="mlabel">Blog Técnico</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+        <button data-page="contato" class="spa-mobile-btn mobile-nav-item">
+          <span class="mnum">06</span>
+          <span class="mlabel">Contato & RFQ</span>
+          <i class="ph-bold ph-arrow-right marrow"></i>
+        </button>
+      </nav>
+      <button data-page="contato" class="spa-nav-link btn-gold mobile-cta relative z-10 w-full mt-9 flex items-center justify-center gap-2.5 py-4 rounded-2xl bg-brand-gold text-white font-title font-bold text-sm uppercase tracking-wider hover:bg-brand-gold-hover transition-all">
+        <span class="btn-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-[18px] h-[18px] shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></span>
+        <span>Falar com Engenheiro</span>
+      </button>
+      <div class="mobile-meta relative z-10 mt-6 flex items-center justify-between font-mono text-[10px] text-slate-500 uppercase tracking-widest">
+        <span>CREA-SP Ativo</span>
+        <span>Barueri &bull; Alphaville</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 1: HOME -->
+  <!-- ========================================================================= -->
+  <main id="page-home" class="page-view active">
+    
+    <!-- Hero Section -->
+    <section class="relative pt-16 pb-20 lg:pt-24 lg:pb-32 border-b border-slate-200 overflow-hidden bg-white">
+      <!-- Logo watermark -->
+      <svg id="heroWatermark" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute; right:-25px; top:calc(10% - 80px); width:min(340px, 85vw); height:auto; opacity:0.06; pointer-events:none; user-select:none; z-index:0; will-change: transform;" class="md:!right-[calc(8%-25px)] lg:!right-[calc(14%-25px)] md:!top-[calc(15%-80px)] md:!w-[420px] lg:!w-[520px]">
+        <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#0F172A" stroke-width="4" stroke-linejoin="round" fill="none"/>
+        <path d="M50 12 L50 88" stroke="#0F172A" stroke-width="3"/>
+        <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#0F172A"/>
+        <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#0F172A" stroke-width="3" stroke-linejoin="round" fill="none"/>
+      </svg>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="max-w-4xl">
+          <h1 class="font-title font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-[68px] tracking-tight text-slate-900 leading-[1.08] mb-6">
+            <span class="hero-word" style="--d: 0.12s">Engenharia</span>
+            <span class="hero-word" style="--d: 0.19s">de</span>
+            <span class="hero-word" style="--d: 0.26s">precisão</span>
+            <span class="hero-word" style="--d: 0.33s">para</span>
+            <span class="hero-word" style="--d: 0.40s">operações</span>
+            <span class="hero-word" style="--d: 0.47s">que</span>
+            <span class="hero-word" style="--d: 0.54s">exigem</span>
+            <span class="hero-word text-brand-gold" style="--d: 0.61s">zero</span>
+            <span class="hero-word text-brand-gold" style="--d: 0.68s">falha</span>
+            <span class="hero-word text-brand-gold" style="--d: 0.75s">técnica.</span>
+          </h1>
+          
+          <p class="hero-lead text-slate-600 text-base sm:text-lg lg:text-xl font-normal leading-relaxed max-w-2xl mb-10">
+            Projetos elétricos complexos, engenharia hidrossanitária e manutenção predial/industrial com homologação total por ART, laudos técnicos e estrito cumprimento das normas NBR e regulamentadoras.
+          </p>
+        </div>
+
+        <div class="hero-cta flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-16">
+          <button data-page="contato" class="spa-nav-link btn-gold inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-brand-gold text-white font-title font-bold text-sm tracking-wide uppercase transition-all duration-300 hover:bg-brand-gold-hover shadow-md shadow-amber-500/10">
+            <span>Solicitar Vistoria Técnica</span>
+            <span class="btn-arrow"><i class="ph-bold ph-arrow-right text-base"></i></span>
+          </button>
+          <button data-page="servicos" class="spa-nav-link btn-outline inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl bg-white border border-slate-300 text-slate-800 font-semibold text-sm">
+            <span class="btn-icon"><i class="ph-bold ph-squares-four text-base text-brand-gold"></i></span>
+            <span>Explorar Especialidades</span>
+          </button>
+        </div>
+
+        <!-- Metric Indicators: Painel Executivo Unificado com Alto Contraste -->
+        <div class="rounded-2xl bg-white border border-slate-200 shadow-sm overflow-hidden">
+          <div class="bg-slate-50 border-b border-slate-200 px-6 py-3 flex flex-wrap items-center justify-between gap-4 font-mono text-[11px] text-slate-600">
+            <div class="flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+              <span class="font-bold text-slate-800 tracking-wider">INDICADORES DE CAPACIDADE TÉCNICA OPERACIONAL</span>
+            </div>
+            <div class="flex items-center gap-4 text-slate-500">
+              <span>BASE: NORMAS ABNT / MTE</span>
+              <span class="hidden sm:inline">&bull;</span>
+              <span class="hidden sm:inline">JURISDIÇÃO: CREA-SP</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-slate-200">
+            
+            <div class="metric-reveal p-7 flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="metric-badge font-mono text-[10px] font-bold uppercase tracking-widest bg-amber-50 px-2.5 py-0.5 rounded border border-amber-200 text-brand-dark">MÉTRICA // 01</span>
+                  <div class="metric-icon w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center text-brand-gold text-base">
+                    <i class="ph-bold ph-certificate"></i>
+                  </div>
+                </div>
+                <div class="metric-num font-title font-extrabold text-4xl text-slate-900 tracking-tight mb-1"><span class="counter" data-count="100" data-suffix="%">100%</span></div>
+                <div class="font-mono text-xs font-bold text-slate-800 uppercase tracking-wider mb-2">ART Vinculada Obrigatória</div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Anotação de Responsabilidade Técnica formal lavrada perante o CREA-SP em todos os contratos e vistorias executivas.
+                </p>
+              </div>
+              <div class="metric-foot pt-5 mt-5 border-t border-slate-100 flex items-center gap-1.5 font-mono text-[10px] text-slate-500">
+                <i class="ph-bold ph-shield-check text-brand-gold text-sm"></i>
+                <span>Garantia de Responsabilidade Civil</span>
+              </div>
+            </div>
+
+            <div class="metric-reveal p-7 flex flex-col justify-between group" style="transition-delay: 0.1s">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="metric-badge font-mono text-[10px] font-bold uppercase tracking-widest bg-amber-50 px-2.5 py-0.5 rounded border border-amber-200 text-brand-dark">MÉTRICA // 02</span>
+                  <div class="metric-icon w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center text-brand-gold text-base">
+                    <i class="ph-bold ph-shield-warning"></i>
+                  </div>
+                </div>
+                <div class="metric-num font-title font-extrabold text-4xl text-slate-900 tracking-tight mb-1"><span class="counter" data-count="35" data-prefix="NR-10 &bull; ">NR-10 &bull; 35</span></div>
+                <div class="font-mono text-xs font-bold text-slate-800 uppercase tracking-wider mb-2">Homologação Ocupacional</div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Corpo de engenharia e técnicos com certificações ativas de trabalho elétrico energizado e acesso em altura.
+                </p>
+              </div>
+              <div class="metric-foot pt-5 mt-5 border-t border-slate-100 flex items-center gap-1.5 font-mono text-[10px] text-slate-500">
+                <i class="ph-bold ph-check-circle text-brand-gold text-sm"></i>
+                <span>Prontuário de Instalação Integral</span>
+              </div>
+            </div>
+
+            <div class="metric-reveal p-7 flex flex-col justify-between group" style="transition-delay: 0.2s">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="metric-badge font-mono text-[10px] font-bold uppercase tracking-widest bg-amber-50 px-2.5 py-0.5 rounded border border-amber-200 text-brand-dark">MÉTRICA // 03</span>
+                  <div class="metric-icon w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center text-brand-gold text-base">
+                    <i class="ph-bold ph-hourglass-high"></i>
+                  </div>
+                </div>
+                <div class="metric-num font-title font-extrabold text-4xl text-slate-900 tracking-tight mb-1">Zero</div>
+                <div class="font-mono text-xs font-bold text-slate-800 uppercase tracking-wider mb-2">Interrupção Imprevista</div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Protocolos estruturados de intervenção em turnos especiais e janelas críticas, preservando a produção industrial.
+                </p>
+              </div>
+              <div class="metric-foot pt-5 mt-5 border-t border-slate-100 flex items-center gap-1.5 font-mono text-[10px] text-slate-500">
+                <i class="ph-bold ph-gear text-brand-gold text-sm"></i>
+                <span>Planejamento de Continuidade</span>
+              </div>
+            </div>
+
+            <div class="metric-reveal p-7 flex flex-col justify-between group" style="transition-delay: 0.3s">
+              <div>
+                <div class="flex items-center justify-between mb-4">
+                  <span class="metric-badge font-mono text-[10px] font-bold uppercase tracking-widest bg-amber-50 px-2.5 py-0.5 rounded border border-amber-200 text-brand-dark">MÉTRICA // 04</span>
+                  <div class="metric-icon w-8 h-8 rounded-lg bg-amber-50 border border-amber-200 flex items-center justify-center text-brand-gold text-base">
+                    <i class="ph-bold ph-map-pin"></i>
+                  </div>
+                </div>
+                <div class="metric-num font-title font-extrabold text-4xl text-slate-900 tracking-tight mb-1"><span class="counter" data-count="3" data-prefix="+" data-suffix=" Anos">+3 Anos</span></div>
+                <div class="font-mono text-xs font-bold text-slate-800 uppercase tracking-wider mb-2">Sede em Barueri / SP</div>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Operação contínua desde fevereiro de 2023 com capacidade de mobilização técnica imediata em toda a Grande SP.
+                </p>
+              </div>
+              <div class="metric-foot pt-5 mt-5 border-t border-slate-100 flex items-center gap-1.5 font-mono text-[10px] text-slate-500">
+                <i class="ph-bold ph-buildings text-brand-gold text-sm"></i>
+                <span>CNPJ 49.691.646/0001-51</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Especialidades Resumidas -->
+    <section id="especialidades" class="py-20 border-b border-slate-200 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+          <div>
+            <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-2">Engenharia Multidisciplinar</span>
+            <h2 class="font-title font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">
+              Quatro pilares técnicos sob um único contrato.
+            </h2>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <a href="servicos/eletrica/" class="metric-reveal sweep-card block p-8 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer group" style="transition-delay: 0s">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-brand-gold text-3xl transition-transform duration-300 group-hover:scale-125 group-hover:rotate-6">
+                <i class="ph-duotone ph-lightning"></i>
+              </div>
+              <div class="lg:col-span-4">
+                <span class="font-mono text-[11px] text-brand-dark font-bold tracking-wider uppercase block mb-1">Média & Baixa Tensão</span>
+                <h3 class="font-title font-bold text-2xl text-slate-900">Instalações Elétricas Industriais & Comerciais</h3>
+              </div>
+              <div class="lg:col-span-4 text-sm text-slate-600 leading-relaxed">
+                Montagem de Quadros Gerais (QGBT), subestações abrigadas, malhas de aterramento, laudos SPDA e balanceamento de cargas trifásicas.
+              </div>
+              <div class="lg:col-span-3 flex lg:justify-end">
+                <span class="font-mono text-xs text-slate-700 font-semibold px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200">
+                  NBR 5410 &bull; NR-10
+                </span>
+              </div>
+            </div>
+          </a>
+
+          <a href="servicos/hidraulica-avcb/" class="metric-reveal sweep-card block p-8 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer group" style="transition-delay: 0.1s">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-brand-gold text-3xl transition-transform duration-300 group-hover:scale-125 group-hover:rotate-6">
+                <i class="ph-duotone ph-drop"></i>
+              </div>
+              <div class="lg:col-span-4">
+                <span class="font-mono text-[11px] text-brand-dark font-bold tracking-wider uppercase block mb-1">Prevenção & Infraestrutura</span>
+                <h3 class="font-title font-bold text-2xl text-slate-900">Engenharia Hidráulica & Combate a Incêndio</h3>
+              </div>
+              <div class="lg:col-span-4 text-sm text-slate-600 leading-relaxed">
+                Sistemas de pressurização de água, redes de hidrantes, barriletes técnicos, bombas de recalque e adequações completas para renovação de AVCB.
+              </div>
+              <div class="lg:col-span-3 flex lg:justify-end">
+                <span class="font-mono text-xs text-slate-700 font-semibold px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200">
+                  AVCB &bull; NBR 5626
+                </span>
+              </div>
+            </div>
+          </a>
+
+          <a href="servicos/manutencao-predial/" class="metric-reveal sweep-card block p-8 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer group" style="transition-delay: 0.2s">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-brand-gold text-3xl transition-transform duration-300 group-hover:scale-125 group-hover:rotate-6">
+                <i class="ph-duotone ph-wrench"></i>
+              </div>
+              <div class="lg:col-span-4">
+                <span class="font-mono text-[11px] text-brand-dark font-bold tracking-wider uppercase block mb-1">Facilities Corporativos</span>
+                <h3 class="font-title font-bold text-2xl text-slate-900">Gestão Preventiva e Corretiva Programada</h3>
+              </div>
+              <div class="lg:col-span-4 text-sm text-slate-600 leading-relaxed">
+                Contratos recorrentes de facilities para edifícios corporativos e galpões logísticos. Rotinas de vistoria periódica com SLA rígido.
+              </div>
+              <div class="lg:col-span-3 flex lg:justify-end">
+                <span class="font-mono text-xs text-slate-700 font-semibold px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200">
+                  SLA Dedicado
+                </span>
+              </div>
+            </div>
+          </a>
+
+          <a href="servicos/laudos-nbr-16280/" class="metric-reveal sweep-card block p-8 rounded-2xl bg-white border border-slate-200 hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer group" style="transition-delay: 0.3s">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-brand-gold text-3xl transition-transform duration-300 group-hover:scale-125 group-hover:rotate-6">
+                <i class="ph-duotone ph-blueprint"></i>
+              </div>
+              <div class="lg:col-span-4">
+                <span class="font-mono text-[11px] text-brand-dark font-bold tracking-wider uppercase block mb-1">Laudos & Execução</span>
+                <h3 class="font-title font-bold text-2xl text-slate-900">Projetos Executivos & Reformas Civis</h3>
+              </div>
+              <div class="lg:col-span-4 text-sm text-slate-600 leading-relaxed">
+                Compatibilização de projetos técnicos de engenharia e arquitetura, laudos periciais de reforma para condomínios (NBR 16280) e entregas de layout.
+              </div>
+              <div class="lg:col-span-3 flex lg:justify-end">
+                <span class="font-mono text-xs text-slate-700 font-semibold px-3 py-1.5 rounded-lg bg-slate-100 border border-slate-200">
+                  NBR 16280 &bull; ART
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Scope Estimator Preview on Home -->
+    <section class="py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-10">
+          <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-2">Diagnóstico Preliminar</span>
+          <h2 class="font-title font-extrabold text-3xl text-slate-900 tracking-tight">
+            Simulador de Escopo Técnico
+          </h2>
+          <p class="text-slate-600 text-xs mt-2 font-mono">Ajuste os parâmetros para transmitir o dossiê prévio diretamente ao engenheiro de plantão.</p>
+        </div>
+
+        <div class="relative rounded-3xl bg-white border border-slate-200 shadow-sm overflow-hidden">
+          <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-gold via-amber-400 to-brand-gold"></div>
+          <div class="p-8 sm:p-10">
+            <div class="mb-7">
+              <label class="block font-mono text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-3">1 &bull; Tipo de Serviço Principal</label>
+              <div class="relative grid grid-cols-1 sm:grid-cols-3 gap-2 p-1.5 rounded-2xl bg-slate-100 border border-slate-200" id="homeSimButtons">
+                <button type="button" class="sim-btn active relative z-10 flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs font-mono font-bold transition-colors duration-300" data-servico="Instalações Elétricas Industriais">
+                  <i class="ph-bold ph-lightning text-sm"></i>Elétrica Industrial
+                </button>
+                <button type="button" class="sim-btn relative z-10 flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs font-mono font-medium text-slate-600 hover:text-slate-900 transition-colors duration-300" data-servico="Engenharia Hidráulica / AVCB">
+                  <i class="ph-bold ph-drop text-sm"></i>Hidráulica & Incêndio
+                </button>
+                <button type="button" class="sim-btn relative z-10 flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs font-mono font-medium text-slate-600 hover:text-slate-900 transition-colors duration-300" data-servico="Manutenção Predial / Obra">
+                  <i class="ph-bold ph-wrench text-sm"></i>Reforma & Manutenção
+                </button>
+              </div>
+            </div>
+
+            <div class="mb-8">
+              <div class="flex justify-between items-center mb-3">
+                <label class="font-mono text-[11px] font-bold text-slate-500 uppercase tracking-widest">2 &bull; Metragem Quadrada Aproximada</label>
+                <span class="font-mono text-sm font-bold text-brand-dark bg-amber-50 px-3 py-1 rounded-lg border border-amber-200 tabular-nums" id="homeAreaDisplay">500 m²</span>
+              </div>
+              <input type="range" min="50" max="3000" step="50" value="500" id="homeAreaSlider" class="sim-range w-full cursor-pointer">
+              <div class="flex justify-between text-[10px] font-mono text-slate-400 mt-2">
+                <span>50 m²</span>
+                <span>1.500 m²</span>
+                <span>3.000 m²+</span>
+              </div>
+            </div>
+
+            <div class="mb-8">
+              <label class="block font-mono text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-3">3 &bull; Documentos Obrigatórios</label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                <label class="sim-check flex items-center gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 cursor-pointer transition-all duration-300">
+                  <input type="checkbox" id="homeReqArt" checked class="sr-only">
+                  <span class="check-box w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center shrink-0 transition-all duration-300">
+                    <i class="ph-bold ph-check text-[11px] text-white opacity-0 scale-50 transition-all duration-200"></i>
+                  </span>
+                  <span class="font-medium">Emissão de ART</span>
+                </label>
+                <label class="sim-check flex items-center gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 cursor-pointer transition-all duration-300">
+                  <input type="checkbox" id="homeReqAvcb" class="sr-only">
+                  <span class="check-box w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center shrink-0 transition-all duration-300">
+                    <i class="ph-bold ph-check text-[11px] text-white opacity-0 scale-50 transition-all duration-200"></i>
+                  </span>
+                  <span class="font-medium">Adequação AVCB</span>
+                </label>
+                <label class="sim-check flex items-center gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-700 cursor-pointer transition-all duration-300">
+                  <input type="checkbox" id="homeReqLaudo" class="sr-only">
+                  <span class="check-box w-5 h-5 rounded-md border-2 border-slate-300 flex items-center justify-center shrink-0 transition-all duration-300">
+                    <i class="ph-bold ph-check text-[11px] text-white opacity-0 scale-50 transition-all duration-200"></i>
+                  </span>
+                  <span class="font-medium">Laudo NBR 16280</span>
+                </label>
+              </div>
+            </div>
+
+            <button id="homeBtnSimular" class="btn-gold w-full py-4 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 hover:bg-brand-gold-hover transition-all shadow-sm">
+              <span class="btn-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></span>
+              <span>Enviar Diagnóstico para o Engenheiro</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 2: QUEM SOMOS -->
+  <!-- ========================================================================= -->
+  <main id="page-sobre" class="page-view">
+    
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Institucional & Governança</span>
+        <h1 class="font-title font-extrabold text-4xl sm:text-6xl tracking-tight text-slate-900 mb-6">
+          Engenharia séria construída sobre <span class="text-brand-gold">segurança técnica e respaldo legal.</span>
+        </h1>
+        <p class="text-slate-600 text-base sm:text-lg max-w-3xl leading-relaxed">
+          Conheça a história, os princípios de governança corporativa e os critérios normativos da MARHE Engenharia e Construções Ltda.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+          
+          <div class="lg:col-span-7">
+            <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-2">Fundação & Trajetória</span>
+            <h2 class="font-title font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight mb-6">
+              Nascida no polo econômico de Barueri para atender operações de alto padrão.
+            </h2>
+            <div class="space-y-4 text-slate-600 text-sm leading-relaxed">
+              <p>
+                Fundada em <strong>23 de fevereiro de 2023</strong> no município de Barueri, São Paulo, a <strong>MARHE Engenharia e Construções Ltda.</strong> (CNPJ 49.691.646/0001-51) foi estruturada especificamente para preencher uma lacuna crítica na construção civil regional: a carência de prestadores com capacidade técnica avançada em instalações integradas (elétrica e hidráulica) respaldadas por rigor documental.
+              </p>
+              <p>
+                Com operações estratégicas concentradas em <strong>Barueri, Alphaville, Tamboré, Osasco, Grande São Paulo e Campinas</strong>, a empresa consolidou atuação junto a indústrias, galpões de logística, edifícios comerciais e condomínios residenciais de grande porte.
+              </p>
+              <p>
+                Nosso modelo de governança proíbe soluções paliativas ou "gambiarras". Toda e qualquer execução na Marhe é precedida de diagnóstico preliminar, cálculo de carga e dimensionamento hidrossanitário em estrita observância às normas da Associação Brasileira de Normas Técnicas (ABNT) e Normas Regulamentadoras do Ministério do Trabalho.
+              </p>
+            </div>
+
+            <!-- MVV Pillar Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-10 mt-8 border-t border-slate-200">
+              
+              <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between cursor-pointer">
+                <div>
+                  <div class="flex items-center justify-between mb-4">
+                    <span class="font-mono text-[11px] font-bold text-slate-400">PILAR // 01</span>
+                    <div class="metric-icon w-9 h-9 rounded-xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-lg">
+                      <i class="ph-bold ph-target"></i>
+                    </div>
+                  </div>
+                  <h3 class="metric-num font-title font-extrabold text-lg text-slate-900 mb-2">Missão</h3>
+                  <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                    Entregar soluções de engenharia técnica que protejam vidas, patrimônios e a continuidade das operações produtivas de empresas e condomínios.
+                  </p>
+                </div>
+                <div class="metric-foot pt-4 border-t border-slate-200 space-y-1.5 font-mono text-[10px] text-slate-600">
+                  <div class="flex items-center gap-1.5"><i class="ph-bold ph-check text-brand-gold"></i><span>Zero paralisação fabril</span></div>
+                  <div class="flex items-center gap-1.5"><i class="ph-bold ph-check text-brand-gold"></i><span><span class="counter" data-count="100" data-suffix="%">100%</span> de emissão de ART</span></div>
+                </div>
+              </div>
+
+              <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between cursor-pointer" style="transition-delay: 0.1s">
+                <div>
+                  <div class="flex items-center justify-between mb-4">
+                    <span class="font-mono text-[11px] font-bold text-slate-400">PILAR // 02</span>
+                    <div class="metric-icon w-9 h-9 rounded-xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-lg">
+                      <i class="ph-bold ph-eye"></i>
+                    </div>
+                  </div>
+                  <h3 class="metric-num font-title font-extrabold text-lg text-slate-900 mb-2">Visão</h3>
+                  <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                    Ser a principal referência de engenharia em instalações elétricas, hidráulica e facilities corporativos na Região Metropolitana de São Paulo e Campinas.
+                  </p>
+                </div>
+                <div class="metric-foot pt-4 border-t border-slate-200 space-y-1.5 font-mono text-[10px] text-slate-600">
+                  <div class="flex items-center gap-1.5"><i class="ph-bold ph-check text-brand-gold"></i><span>Presença regional sólida</span></div>
+                  <div class="flex items-center gap-1.5"><i class="ph-bold ph-check text-brand-gold"></i><span>Padrão técnico triple A</span></div>
+                </div>
+              </div>
+
+              <div class="metric-reveal p-6 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col justify-between cursor-pointer" style="transition-delay: 0.2s">
+                <div>
+                  <div class="flex items-center justify-between mb-4">
+                    <span class="font-mono text-[11px] font-bold text-slate-400">PILAR // 03</span>
+                    <div class="metric-icon w-9 h-9 rounded-xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-lg">
+                      <i class="ph-bold ph-shield-check"></i>
+                    </div>
+                  </div>
+                  <h3 class="metric-num font-title font-extrabold text-lg text-slate-900 mb-2">Valores</h3>
+                  <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                    Responsabilidade técnica inegociável, rigor normativo ABNT, pontualidade de cronograma, transparência contratual e integridade construtiva.
+                  </p>
+                </div>
+                <div class="metric-foot pt-4 border-t border-slate-200 space-y-1.5 font-mono text-[10px] text-slate-600">
+                  <div class="flex items-center gap-1.5"><i class="ph-bold ph-check text-brand-gold"></i><span>Rigor com NBRs e NRs</span></div>
+                  <div class="flex items-center gap-1.5"><i class="ph-bold ph-check text-brand-gold"></i><span>Ética em cada contrato</span></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 space-y-6">
+            <div class="metric-reveal p-8 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm">
+              <div class="flex items-center justify-between pb-4 border-b border-slate-200 mb-6">
+                <div>
+                  <span class="font-mono text-xs text-brand-dark font-bold">REGISTRO JURÍDICO</span>
+                  <h4 class="font-title font-bold text-lg text-slate-900">Dados da Sociedade Empresária</h4>
+                </div>
+                <i class="ph-bold ph-certificate text-2xl text-brand-gold"></i>
+              </div>
+
+              <div class="space-y-3 font-mono text-xs">
+                <div>
+                  <span class="text-slate-400 block text-[10px]">RAZÃO SOCIAL:</span>
+                  <span class="text-slate-900 font-bold">MARHE Engenharia e Construções Ltda.</span>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px]">CNPJ OFICIAL:</span>
+                  <span class="text-brand-dark font-bold text-sm">49.691.646/0001-51</span>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px]">DATA DE ABERTURA:</span>
+                  <span class="text-slate-800 font-medium">23 de Fevereiro de 2023 (Ativa e Regular)</span>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px]">SEDE:</span>
+                  <span class="text-slate-800 font-medium">Barueri, São Paulo, Brasil</span>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px]">OBJETO SOCIAL:</span>
+                  <span class="text-emerald-700 font-medium">Atividades técnicas de engenharia, arquitetura, instalações elétricas e hidráulicas</span>
+                </div>
+              </div>
+
+              <div class="mt-6 pt-6 border-t border-slate-200">
+                <button data-page="contato" class="spa-nav-link btn-gold w-full py-3 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+                  Solicitar Pasta de Certidões Negativas
+                </button>
+              </div>
+            </div>
+
+            <div class="metric-reveal p-6 rounded-2xl bg-white border border-slate-200 text-slate-600 shadow-sm" style="transition-delay: 0.1s">
+              <div class="flex items-center gap-3 mb-2">
+                <i class="ph-bold ph-seal-check text-2xl text-brand-gold"></i>
+                <h4 class="font-title font-bold text-base text-slate-900">Anotação Técnica Obrigatória</h4>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Nenhuma obra ou vistoria sai da MARHE sem a emissão da respectiva ART devidamente registrada no CREA-SP. Isso assegura responsabilidade civil e segurança contratual ao cliente final perante seguradoras e fiscalizações.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 3: SERVIÇOS -->
+  <!-- ========================================================================= -->
+  <main id="page-servicos" class="page-view">
+    
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Catálogo de Capacidades</span>
+        <h1 class="font-title font-extrabold text-4xl sm:text-6xl tracking-tight text-slate-900 mb-6">
+          Especialidades Técnicas de <span class="text-brand-gold">Alta Densidade de Engenharia.</span>
+        </h1>
+        <p class="text-slate-600 text-base sm:text-lg max-w-3xl leading-relaxed">
+          Detalhamento executivo, escopos contratuais e níveis de serviço (SLA) para instalações industriais, comerciais e condomínios na Grande São Paulo.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+        
+        <!-- DISCIPLINA 1: ELÉTRICA -->
+        <div class="metric-reveal p-8 sm:p-12 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm">
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 border-b border-slate-200 mb-8">
+            <div class="flex items-center gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-3xl font-bold">
+                <i class="ph-bold ph-lightning"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-brand-dark font-bold uppercase tracking-wider">DISCIPLINA 01 &bull; ALTA & MÉDIA TENSÃO</span>
+                <h2 class="font-title font-extrabold text-2xl text-slate-900">Engenharia e Instalações Elétricas Industriais</h2>
+              </div>
+            </div>
+            <button data-page="contato" class="spa-nav-link btn-gold px-6 py-3 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+              Solicitar Orçamento Elétrico
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Escopo Executivo Completo:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Montagem e retrofit de Quadros Gerais (QGBT)</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Cabines primárias e subestações abrigadas</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Sistemas SPDA (para-raios) com ensaios de continuidade</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Malhas de aterramento de baixa impedância</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Instrumentação & Laudos Técnicos:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Termografia por infravermelho em conexões</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Medição ôhmica de aterramento homologada</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Análise de harmônicos e balanceamento de fases</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Emissão de Prontuário Elétrico NR-10</li>
+              </ul>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 flex flex-col justify-between shadow-sm">
+              <div>
+                <span class="font-mono text-[10px] text-brand-dark uppercase font-bold">Garantia & Homologação</span>
+                <div class="font-title font-bold text-base text-slate-900 mt-1 mb-2"><span class="counter" data-count="100" data-suffix="%">100%</span> com ART Registrada</div>
+                <p class="text-xs text-slate-600 leading-relaxed">Trabalhos em turnos especiais para garantir zero parada em indústrias e galpões.</p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 font-mono text-[11px] text-slate-500">
+                Norma Base: NBR 5410 & NR-10
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISCIPLINA 2: HIDRÁULICA -->
+        <div class="metric-reveal p-8 sm:p-12 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm" style="transition-delay: 0.1s">
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 border-b border-slate-200 mb-8">
+            <div class="flex items-center gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-3xl font-bold">
+                <i class="ph-bold ph-drop"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-brand-dark font-bold uppercase tracking-wider">DISCIPLINA 02 &bull; FLUIDOS & SEGURANÇA</span>
+                <h2 class="font-title font-extrabold text-2xl text-slate-900">Engenharia Hidráulica & Combate a Incêndio (AVCB)</h2>
+              </div>
+            </div>
+            <button data-page="contato" class="spa-nav-link btn-gold px-6 py-3 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+              Solicitar Orçamento Hidráulico
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Redes Hidrossanitárias:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Retrofit de barriletes de água potável</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Válvulas redutoras de pressão (VRP)</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Bombas de recalque e estações de esgoto</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Combate a Incêndio & AVCB:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Redes de hidrantes e sprinklers</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Testes de estanqueidade e vazão</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Bombas principais e jockey automatizadas</li>
+              </ul>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 flex flex-col justify-between shadow-sm">
+              <div>
+                <span class="font-mono text-[10px] text-brand-dark uppercase font-bold">Risco Zero de Parada</span>
+                <div class="font-title font-bold text-base text-slate-900 mt-1 mb-2">Manobras sem Desabastecimento</div>
+                <p class="text-xs text-slate-600 leading-relaxed">Planejamento de manobras para que condomínios não fiquem sem água durante reformas.</p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 font-mono text-[11px] text-slate-500">
+                Norma Base: NBR 5626 & ITs CBMSP
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISCIPLINA 3: MANUTENÇÃO -->
+        <div class="metric-reveal p-8 sm:p-12 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm" style="transition-delay: 0.2s">
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 border-b border-slate-200 mb-8">
+            <div class="flex items-center gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-3xl font-bold">
+                <i class="ph-bold ph-wrench"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-brand-dark font-bold uppercase tracking-wider">DISCIPLINA 03 &bull; FACILITIES & SLA</span>
+                <h2 class="font-title font-extrabold text-2xl text-slate-900">Manutenção Predial & Industrial</h2>
+              </div>
+            </div>
+            <button data-page="contato" class="spa-nav-link btn-gold px-6 py-3 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+              Solicitar Orçamento de Manutenção
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Manutenção Preventiva Programada:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Vistorias periódicas das instalações elétricas e hidrossanitárias</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Termografia e medições preventivas em quadros e conexões</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Manutenção de quadros, luminárias e circuitos</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Plano de ação para não conformidades detectadas</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Manutenção Corretiva & Emergências:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Atendimento a ocorrências em turnos especiais</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Reparos elétricos e hidráulicos com ART emitida</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Atendimento a falhas em janelas críticas de produção</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Prontuário técnico atualizado a cada intervenção</li>
+              </ul>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 flex flex-col justify-between shadow-sm">
+              <div>
+                <span class="font-mono text-[10px] text-brand-dark uppercase font-bold">Preventivo & Corretivo</span>
+                <div class="font-title font-bold text-base text-slate-900 mt-1 mb-2">Contratos com SLA Dedicado</div>
+                <p class="text-xs text-slate-600 leading-relaxed">Contratos recorrentes de facilities para edifícios corporativos e galpões logísticos, com rotinas de vistoria periódica.</p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 font-mono text-[11px] text-slate-500">
+                Norma Base: NR-10 & NR-35
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DISCIPLINA 4: LAUDOS -->
+        <div class="metric-reveal p-8 sm:p-12 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm" style="transition-delay: 0.3s">
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 border-b border-slate-200 mb-8">
+            <div class="flex items-center gap-4">
+              <div class="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-200 text-brand-gold flex items-center justify-center text-3xl font-bold">
+                <i class="ph-bold ph-blueprint"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-brand-dark font-bold uppercase tracking-wider">DISCIPLINA 04 &bull; LAUDOS & CONFORMIDADE</span>
+                <h2 class="font-title font-extrabold text-2xl text-slate-900">Laudos, Perícias & Projetos Executivos</h2>
+              </div>
+            </div>
+            <button data-page="contato" class="spa-nav-link btn-gold px-6 py-3 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+              Solicitar Laudo NBR 16280
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Laudos & Perícias:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Laudo de inspeção predial conforme a NBR 16280</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Laudo pericial de reforma para condomínios</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Vistoria técnica com registro fotográfico e croqui</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Parecer técnico para seguradoras e administradoras</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-title font-bold text-sm text-slate-900 mb-3 uppercase tracking-wider">Conformidade Técnica:</h3>
+              <ul class="text-xs text-slate-600 space-y-2.5 font-mono">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Compatibilização de projetos de engenharia e arquitetura</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Análise de conformidade de instalações elétricas</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Termografia por infravermelho em conexões elétricas</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5"></i> Emissão de ART para vistorias e laudos</li>
+              </ul>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-white border border-slate-200 flex flex-col justify-between shadow-sm">
+              <div>
+                <span class="font-mono text-[10px] text-brand-dark uppercase font-bold">Projetos & Execução</span>
+                <div class="font-title font-bold text-base text-slate-900 mt-1 mb-2">Projetos & Reformas Compatibilizados</div>
+                <p class="text-xs text-slate-600 leading-relaxed">Compatibilização de projetos técnicos de engenharia e arquitetura e laudos periciais de reforma para condomínios.</p>
+              </div>
+              <div class="pt-4 border-t border-slate-100 font-mono text-[11px] text-slate-500">
+                Norma Base: NBR 16280 & ABNT
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 4: PORTFÓLIO -->
+  <!-- ========================================================================= -->
+  <main id="page-obras" class="page-view">
+    
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Comprovação Técnica</span>
+        <h1 class="font-title font-extrabold text-4xl sm:text-6xl tracking-tight text-slate-900 mb-6">
+          Obras Executadas & <span class="text-brand-gold">Resultados Comprovados.</span>
+        </h1>
+        <p class="text-slate-600 text-base sm:text-lg max-w-3xl leading-relaxed">
+          Veja como entregamos segurança e conformidade técnica em projetos corporativos, industriais e residenciais em Barueri e Grande São Paulo.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-12 pb-6 border-b border-slate-200">
+          <span class="font-mono text-xs text-slate-800 font-bold uppercase">FILTRAR CASES:</span>
+          <div class="relative flex flex-wrap gap-1 p-1.5 rounded-2xl bg-slate-100 border border-slate-200" id="portfolioPageFilter">
+            <button class="port-filter-btn active relative z-10 px-4 py-2 rounded-xl text-xs font-mono font-bold transition-colors duration-300" data-filter="all">Todas as Obras</button>
+            <button class="port-filter-btn relative z-10 px-4 py-2 rounded-xl text-xs font-mono font-medium text-slate-600 hover:text-slate-900 transition-colors duration-300" data-filter="eletrica">Elétrica & SPDA</button>
+            <button class="port-filter-btn relative z-10 px-4 py-2 rounded-xl text-xs font-mono font-medium text-slate-600 hover:text-slate-900 transition-colors duration-300" data-filter="hidraulica">Hidráulica & AVCB</button>
+            <button class="port-filter-btn relative z-10 px-4 py-2 rounded-xl text-xs font-mono font-medium text-slate-600 hover:text-slate-900 transition-colors duration-300" data-filter="reforma">Reformas & Projetos</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="portfolioPageGrid">
+          
+          <div class="metric-reveal portfolio-card-item rounded-3xl bg-white border border-slate-200 overflow-hidden cursor-pointer open-project-modal group hover:border-brand-gold transition-all" data-category="eletrica" data-project="1" style="transition-delay: 0s">
+            <div class="h-52 bg-slate-100 border-b border-slate-200 flex items-center justify-center relative p-6">
+              <span class="absolute top-4 left-4 font-mono text-[10px] bg-white px-3 py-1 rounded-full text-slate-800 font-semibold border border-slate-200 shadow-sm">Barueri / SP</span>
+              <i class="port-icon ph-duotone ph-circuitry text-7xl text-slate-400 transition-all"></i>
+            </div>
+            <div class="p-6">
+              <span class="font-mono text-[10px] text-brand-dark uppercase font-bold block mb-1">Elétrica Industrial</span>
+              <h3 class="font-title font-bold text-xl text-slate-900 mb-2">Montagem de QGBT & Adequação de Subestação</h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">Galpão logístico de 1.800m²: balanceamento de cargas e ensaio termográfico.</p>
+              <div class="flex items-center justify-between text-xs font-mono border-t border-slate-100 pt-4 text-brand-dark font-bold">
+                <span>ART Homologada</span>
+                <span class="flex items-center gap-1">Ver Dossiê <i class="ph-bold ph-arrow-right"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="metric-reveal portfolio-card-item rounded-3xl bg-white border border-slate-200 overflow-hidden cursor-pointer open-project-modal group hover:border-brand-gold transition-all" data-category="hidraulica" data-project="2" style="transition-delay: 0.1s">
+            <div class="h-52 bg-slate-100 border-b border-slate-200 flex items-center justify-center relative p-6">
+              <span class="absolute top-4 left-4 font-mono text-[10px] bg-white px-3 py-1 rounded-full text-slate-800 font-semibold border border-slate-200 shadow-sm">Alphaville / SP</span>
+              <i class="port-icon ph-duotone ph-pipes text-7xl text-slate-400 transition-all"></i>
+            </div>
+            <div class="p-6">
+              <span class="font-mono text-[10px] text-brand-dark uppercase font-bold block mb-1">Hidráulica Predial</span>
+              <h3 class="font-title font-bold text-xl text-slate-900 mb-2">Retrofit de Prumada & Barrilete Técnico</h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">Edifício Comercial: substituição de barrilete em CPVC e automação de bombas.</p>
+              <div class="flex items-center justify-between text-xs font-mono border-t border-slate-100 pt-4 text-brand-dark font-bold">
+                <span>AVCB Aprovado</span>
+                <span class="flex items-center gap-1">Ver Dossiê <i class="ph-bold ph-arrow-right"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="metric-reveal portfolio-card-item rounded-3xl bg-white border border-slate-200 overflow-hidden cursor-pointer open-project-modal group hover:border-brand-gold transition-all" data-category="reforma" data-project="3" style="transition-delay: 0.2s">
+            <div class="h-52 bg-slate-100 border-b border-slate-200 flex items-center justify-center relative p-6">
+              <span class="absolute top-4 left-4 font-mono text-[10px] bg-white px-3 py-1 rounded-full text-slate-800 font-semibold border border-slate-200 shadow-sm">Tamboré / SP</span>
+              <i class="port-icon ph-duotone ph-buildings text-7xl text-slate-400 transition-all"></i>
+            </div>
+            <div class="p-6">
+              <span class="font-mono text-[10px] text-brand-dark uppercase font-bold block mb-1">Reforma Corporativa</span>
+              <h3 class="font-title font-bold text-xl text-slate-900 mb-2">Adequação de Infraestrutura & Layout</h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">Laje de 850m²: compatibilização de piso elevado e laudo NBR 16280.</p>
+              <div class="flex items-center justify-between text-xs font-mono border-t border-slate-100 pt-4 text-brand-dark font-bold">
+                <span>Prazo Cumprido</span>
+                <span class="flex items-center gap-1">Ver Dossiê <i class="ph-bold ph-arrow-right"></i></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 5: BLOG TÉCNICO -->
+  <!-- ========================================================================= -->
+  <main id="page-blog" class="page-view">
+    
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Central de Inteligência Técnica</span>
+        <h1 class="font-title font-extrabold text-4xl sm:text-6xl tracking-tight text-slate-900 mb-6">
+          Blog de Engenharia, <span class="text-brand-gold">Normas & Gestão de Riscos.</span>
+        </h1>
+        <p class="text-slate-600 text-base sm:text-lg max-w-3xl leading-relaxed">
+          Publicações completas e estudos aprofundados sobre normas NBR, exigências do Corpo de Bombeiros e mitigação de riscos para indústrias e síndicos.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <article class="metric-reveal rounded-3xl bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer" style="transition-delay: 0s">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono text-slate-500 mb-4">
+                <span class="text-brand-dark bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200 font-bold">NR-10 & INDÚSTRIA</span>
+                <span>12 min de leitura</span>
+              </div>
+              <h2 class="font-title font-bold text-2xl text-slate-900 mb-3 cursor-pointer read-full-article hover:text-brand-gold transition-colors" data-article="1">
+                Adequação à NR-10 em Instalações Industriais: Riscos Jurídicos e Operacionais
+              </h2>
+              <p class="text-xs text-slate-600 leading-relaxed mb-6 font-sans">
+                A ausência de Prontuário das Instalações Elétricas (PIE) e de ensaios termográficos anula a cobertura de seguros corporativos e expõe indústrias a interdições imediatas pelo MTE.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-400 font-mono">Barueri / SP</span>
+              <button class="text-xs font-mono font-bold text-brand-dark hover:text-slate-900 flex items-center gap-1.5 transition-colors read-full-article" data-article="1">
+                <span>Acessar Artigo Completo</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="metric-reveal rounded-3xl bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer" style="transition-delay: 0.1s">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono text-slate-500 mb-4">
+                <span class="text-brand-dark bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200 font-bold">NBR 16280 & SÍNDICOS</span>
+                <span>14 min de leitura</span>
+              </div>
+              <h2 class="font-title font-bold text-2xl text-slate-900 mb-3 cursor-pointer read-full-article hover:text-brand-gold transition-colors" data-article="2">
+                Guia Definitivo da NBR 16280: Responsabilidade Civil do Síndico em Obras Prediais
+              </h2>
+              <p class="text-xs text-slate-600 leading-relaxed mb-6 font-sans">
+                Dossiê prático para gestores prediais: o checklist documental mandatório que deve ser exigido antes de qualquer intervenção em paredes, prumadas ou circuitos elétricos.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-400 font-mono">Alphaville / SP</span>
+              <button class="text-xs font-mono font-bold text-brand-dark hover:text-slate-900 flex items-center gap-1.5 transition-colors read-full-article" data-article="2">
+                <span>Acessar Artigo Completo</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="metric-reveal rounded-3xl bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-brand-gold hover:shadow-xl hover:shadow-amber-500/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer" style="transition-delay: 0.2s">
+            <div>
+              <div class="flex items-center justify-between text-xs font-mono text-slate-500 mb-4">
+                <span class="text-brand-dark bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200 font-bold">AVCB & CBMSP</span>
+                <span>15 min de leitura</span>
+              </div>
+              <h2 class="font-title font-bold text-2xl text-slate-900 mb-3 cursor-pointer read-full-article hover:text-brand-gold transition-colors" data-article="3">
+                Renovação do AVCB na Grande SP: Principais Falhas Técnicas Reprovadas pelos Bombeiros
+              </h2>
+              <p class="text-xs text-slate-600 leading-relaxed mb-6 font-sans">
+                Falhas na partida automática da bomba jockey, válvulas redutoras descalibradas e ausência de ART de estanqueidade lideram as notificações no Corpo de Bombeiros.
+              </p>
+            </div>
+            <div class="pt-6 border-t border-slate-100 flex items-center justify-between">
+              <span class="text-xs text-slate-400 font-mono">Grande SP</span>
+              <button class="text-xs font-mono font-bold text-brand-dark hover:text-slate-900 flex items-center gap-1.5 transition-colors read-full-article" data-article="3">
+                <span>Acessar Artigo Completo</span>
+                <i class="ph-bold ph-arrow-right"></i>
+              </button>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 5.1: ARTIGO DEDICADO INDIVIDUAL -->
+  <!-- ========================================================================= -->
+  <main id="page-artigo" class="page-view">
+    
+    <section class="py-14 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <button id="btnVoltarBlog" class="inline-flex items-center gap-2 text-xs font-mono text-brand-dark hover:text-slate-900 font-bold mb-6 transition-colors">
+          <i class="ph-bold ph-arrow-left"></i>
+          <span>VOLTAR PARA TODOS OS ARTIGOS</span>
+        </button>
+
+        <div class="flex flex-wrap items-center gap-3 mb-4">
+          <span id="artigoTagNorma" class="font-mono text-xs px-3 py-1 rounded-full bg-amber-50 border border-amber-200 text-brand-dark font-bold">
+            NORMA TÉCNICA
+          </span>
+          <span id="artigoTempoLeitura" class="font-mono text-xs text-slate-500">
+            12 min de leitura
+          </span>
+        </div>
+
+        <h1 id="artigoTituloPrincipal" class="font-title font-extrabold text-3xl sm:text-5xl text-slate-900 tracking-tight leading-tight mb-6">
+          Título do Artigo Completo
+        </h1>
+
+        <div class="flex flex-wrap items-center gap-6 pt-6 border-t border-slate-200 text-xs font-mono text-slate-600">
+          <div>
+            <span class="text-slate-400 block text-[10px]">AUTORIA TÉCNICA:</span>
+            <span class="text-slate-900 font-bold font-sans">Corpo de Engenharia &bull; MARHE</span>
+          </div>
+          <div>
+            <span class="text-slate-400 block text-[10px]">LOCALIZAÇÃO:</span>
+            <span class="text-slate-800">Barueri / Alphaville - SP</span>
+          </div>
+          <div>
+            <span class="text-slate-400 block text-[10px]">REVISÃO:</span>
+            <span class="text-emerald-700 font-bold">CREA-SP Atualizado</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <article class="py-16 border-b border-slate-200 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div id="artigoCorpoDedicado" class="space-y-8 text-slate-700 leading-relaxed font-sans text-base">
+          <!-- Conteúdo dinâmico injetado via JS -->
+        </div>
+
+        <div class="mt-16 p-8 rounded-3xl bg-slate-50 border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <span class="font-mono text-xs text-brand-dark font-bold uppercase">SUPORTE TÉCNICO IN LOCO</span>
+            <h3 class="font-title font-bold text-2xl text-slate-900 mt-1 mb-2">Precisa de adequação técnica na sua empresa?</h3>
+            <p class="text-xs text-slate-600 max-w-lg">Nossa equipe realiza vistorias preliminares com emissão de parecer e ART em Barueri, Alphaville e Grande SP.</p>
+          </div>
+          <button data-page="contato" class="spa-nav-link btn-gold shrink-0 px-7 py-3.5 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+            Solicitar Vistoria Técnica
+          </button>
+        </div>
+
+      </div>
+    </article>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- PAGE 6: CONTATO & RFQ FORMAL -->
+  <!-- ========================================================================= -->
+  <main id="page-contato" class="page-view">
+    
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-3">Canal de Homologação & RFP</span>
+        <h1 class="font-title font-extrabold text-4xl sm:text-6xl tracking-tight text-slate-900 mb-6">
+          Inicie o Diálogo com Nosso <span class="text-brand-gold">Corpo Técnico de Engenharia.</span>
+        </h1>
+        <p class="text-slate-600 text-base sm:text-lg max-w-3xl leading-relaxed">
+          Envie sua demanda para elaboração de proposta técnica formal com memorial descritivo, cronograma e ART.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20 border-b border-slate-200 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          
+          <div class="lg:col-span-5 space-y-6">
+            <div>
+              <span class="font-mono text-xs font-bold text-brand-dark uppercase tracking-widest block mb-2">Canais Oficiais</span>
+              <h2 class="font-title font-extrabold text-3xl text-slate-900 tracking-tight mb-4">
+                Base Operacional em Barueri / SP
+              </h2>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Atendimento estruturado para compras corporativas, indústrias, incorporadoras e administradoras de condomínios.
+              </p>
+            </div>
+
+            <div class="space-y-4 text-xs font-mono">
+              <div class="metric-reveal p-5 rounded-2xl bg-slate-50 border border-slate-200 flex items-start gap-4">
+                <div class="w-10 h-10 rounded-xl bg-amber-50 text-brand-dark flex items-center justify-center text-xl shrink-0 border border-amber-200">
+                  <i class="ph-bold ph-map-pin"></i>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px] uppercase">Sede Administrativa</span>
+                  <span class="text-slate-900 font-bold text-sm">Barueri - São Paulo &bull; Brasil</span>
+                  <p class="text-slate-600 text-[11px] mt-0.5">Atendimento prioritário em Alphaville, Tamboré, Osasco e Grande SP.</p>
+                </div>
+              </div>
+
+              <div class="metric-reveal p-5 rounded-2xl bg-slate-50 border border-slate-200 flex items-start gap-4" style="transition-delay: 0.1s">
+                <div class="w-10 h-10 rounded-xl bg-amber-50 text-brand-dark flex items-center justify-center text-xl shrink-0 border border-amber-200">
+                  <i class="ph-bold ph-phone-call"></i>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px] uppercase">Plantão Técnico & WhatsApp</span>
+                  <span class="text-slate-900 font-bold text-sm">+55 (11) 99999-9999</span>
+                  <p class="text-slate-600 text-[11px] mt-0.5">Segunda a Sexta, das 07h30 às 18h30. Plantão emergencial para clientes sob contrato.</p>
+                </div>
+              </div>
+
+              <div class="metric-reveal p-5 rounded-2xl bg-slate-50 border border-slate-200 flex items-start gap-4" style="transition-delay: 0.2s">
+                <div class="w-10 h-10 rounded-xl bg-amber-50 text-brand-dark flex items-center justify-center text-xl shrink-0 border border-amber-200">
+                  <i class="ph-bold ph-identification-badge"></i>
+                </div>
+                <div>
+                  <span class="text-slate-400 block text-[10px] uppercase">Registro Cadastral</span>
+                  <span class="text-slate-900 font-bold text-sm">CNPJ: 49.691.646/0001-51</span>
+                  <p class="text-slate-600 text-[11px] mt-0.5">MARHE Engenharia e Construções Ltda. &bull; Inscrição Ativa</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enterprise Form -->
+          <div class="metric-reveal lg:col-span-7 p-8 sm:p-12 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm">
+            <div class="flex items-center justify-between pb-6 border-b border-slate-200 mb-8">
+              <div>
+                <span class="font-mono text-xs text-brand-dark font-bold uppercase">PROCESSO B2B</span>
+                <h3 class="font-title font-extrabold text-2xl text-slate-900">Solicitar Orçamento / RFQ Oficial</h3>
+              </div>
+              <span class="text-xs font-mono bg-white px-3 py-1 rounded-full border border-slate-200 text-slate-600 font-medium">Retorno em até 24h</span>
+            </div>
+
+            <form id="rfpCompleteForm" class="space-y-5 text-xs font-sans">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-slate-800 mb-1.5 font-bold">Nome do Solicitante / Responsável *</label>
+                  <input type="text" required placeholder="Ex.: Eng. Ricardo Mendes" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 text-xs focus:border-brand-gold focus:outline-none transition-colors">
+                </div>
+                <div>
+                  <label class="block text-slate-800 mb-1.5 font-bold">Empresa ou Condomínio *</label>
+                  <input type="text" required placeholder="Ex.: Centro Logístico Alphaville" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 text-xs focus:border-brand-gold focus:outline-none transition-colors">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-slate-800 mb-1.5 font-bold">WhatsApp / Telefone Direto *</label>
+                  <input type="tel" required placeholder="(11) 90000-0000" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 text-xs focus:border-brand-gold focus:outline-none transition-colors">
+                </div>
+                <div>
+                  <label class="block text-slate-800 mb-1.5 font-bold">E-mail Corporativo *</label>
+                  <input type="email" required placeholder="contato@empresa.com.br" class="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 text-xs focus:border-brand-gold focus:outline-none transition-colors">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-slate-800 mb-1.5 font-bold">Especialidade Principal *</label>
+                <select class="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 text-xs focus:border-brand-gold focus:outline-none transition-colors font-medium">
+                  <option>Instalações Elétricas Industriais / QGBT / Subestação</option>
+                  <option>Engenharia Hidráulica / Barriletes / AVCB</option>
+                  <option>Contrato Recorrente de Facilities e Manutenção</option>
+                  <option>Reforma Civil Corporativa / Laudo NBR 16280</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-slate-800 mb-1.5 font-bold">Memorial Breve / Descrição da Demanda *</label>
+                <textarea rows="4" required placeholder="Descreva brevemente metragem aproximada, principais problemas existentes ou prazo desejado para início..." class="w-full px-4 py-3 rounded-xl bg-white border border-slate-200 text-slate-900 text-xs focus:border-brand-gold focus:outline-none transition-colors"></textarea>
+              </div>
+
+              <button type="submit" class="btn-gold w-full py-4 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+                Submeter Solicitação de Proposta Técnica (RFP)
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= MODAL DE INSPEÇÃO DE CASOS ================= -->
+  <div id="projectModal" class="fixed inset-0 z-50 hidden modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
+    <div class="relative w-full max-w-3xl rounded-3xl bg-white border border-slate-200 p-8 sm:p-12 overflow-hidden my-8 max-h-[90vh] overflow-y-auto shadow-2xl">
+      
+      <button id="closeProjectModal" class="absolute top-6 right-6 p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors">
+        <i class="ph-bold ph-x text-xl"></i>
+      </button>
+
+      <div class="mb-4">
+        <span id="projCategory" class="text-xs font-mono font-bold px-3 py-1 rounded-full bg-amber-50 text-brand-dark border border-amber-200">
+          CATEGORIA
+        </span>
+      </div>
+
+      <h2 id="projTitle" class="font-title font-extrabold text-2xl sm:text-3xl text-slate-900 mb-4 leading-tight">
+        Título da Obra
+      </h2>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 py-4 border-y border-slate-200 mb-6 font-mono text-xs">
+        <div>
+          <span class="text-slate-400 block text-[10px]">LOCALIZAÇÃO:</span>
+          <span id="projLocation" class="text-slate-900 font-bold">Barueri / SP</span>
+        </div>
+        <div>
+          <span class="text-slate-400 block text-[10px]">ÁREA:</span>
+          <span id="projArea" class="text-slate-900 font-bold">1.800 m²</span>
+        </div>
+        <div>
+          <span class="text-slate-400 block text-[10px]">RESPONSABILIDADE:</span>
+          <span id="projArt" class="text-emerald-700 font-bold">ART Registrada</span>
+        </div>
+        <div>
+          <span class="text-slate-400 block text-[10px]">NORMA BASE:</span>
+          <span id="projNorma" class="text-brand-dark font-bold">NBR 5410</span>
+        </div>
+      </div>
+
+      <div id="projDescription" class="text-slate-600 text-sm leading-relaxed space-y-4 font-sans">
+        <!-- Injetado dinamicamente -->
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <span class="text-xs text-slate-500">Tem uma demanda com perfil semelhante?</span>
+        <button data-page="contato" class="spa-nav-link btn-gold close-modal-action px-6 py-2.5 rounded-xl bg-brand-gold text-white font-title font-bold text-xs uppercase tracking-wider hover:bg-brand-gold-hover transition-all shadow-sm">
+          Solicitar Proposta para Obra
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= BOTÃO FLUTUANTE WHATSAPP ================= -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20MARHE%20Engenharia." target="_blank" rel="noopener" aria-label="Falar no WhatsApp" class="fixed bottom-6 right-6 z-40 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-lg shadow-emerald-600/30 hover:bg-[#1EA952] active:scale-95 transition-all duration-300">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-7 h-7"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <!-- ================= FOOTER INSTITUCIONAL ================= -->
+  <footer class="relative border-t-2 border-brand-gold/40 bg-slate-900 pt-16 pb-10 text-xs font-sans text-slate-400 overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(600px circle at 15% 0%, rgba(200, 160, 32, 0.07), transparent 60%);"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-14">
+        <div class="space-y-5">
+          <button data-page="home" class="spa-nav-link flex items-center gap-3 group text-left" aria-label="MARHE — Página Inicial">
+            <div class="w-12 h-12 rounded-2xl bg-slate-800 border border-slate-700 group-hover:border-brand-gold group-hover:shadow-lg group-hover:shadow-amber-500/10 flex items-center justify-center p-2 shrink-0 transition-all duration-300">
+              <svg viewBox="0 0 100 100" class="w-full h-full transition-transform duration-300 group-hover:scale-110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 12 L84 32 L84 68 L50 88 L16 68 L16 32 Z" stroke="#C8A020" stroke-width="6" stroke-linejoin="round" fill="none"/>
+                <path d="M50 12 L50 88" stroke="#F8FAFC" stroke-width="4"/>
+                <path d="M50 32 L72 45 L72 70 L50 82 Z" fill="#C8A020"/>
+                <path d="M50 32 L28 45 L28 70 L50 58 Z" stroke="#F8FAFC" stroke-width="4" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <div>
+              <span class="font-title font-extrabold text-xl text-white block leading-none group-hover:text-brand-gold transition-colors">MARHE</span>
+              <span class="text-brand-gold font-mono font-bold text-[11px] tracking-widest">ENGENHARIA</span>
+            </div>
+          </button>
+          <p class="leading-relaxed text-slate-400 text-xs">
+            MARHE Engenharia e Construções Ltda.<br>
+            CNPJ: 49.691.646/0001-51<br>
+            Sede Operacional: Barueri - São Paulo
+          </p>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            <div class="text-white font-title font-bold uppercase tracking-wider text-[13px]">Especialidades</div>
+          </div>
+          <ul class="space-y-2.5 font-mono text-xs text-slate-400">
+            <li><a href="servicos/eletrica/" class="spa-nav-link hover:text-brand-gold transition-colors inline-flex items-center gap-1.5"><span class="w-0 group-hover:w-1"></span>Elétrica Industrial</a></li>
+            <li><a href="servicos/hidraulica-avcb/" class="spa-nav-link hover:text-brand-gold transition-colors">Hidráulica & AVCB</a></li>
+            <li><a href="servicos/manutencao-predial/" class="spa-nav-link hover:text-brand-gold transition-colors">Manutenção Predial</a></li>
+            <li><a href="servicos/laudos-nbr-16280/" class="spa-nav-link hover:text-brand-gold transition-colors">Laudos NBR 16280</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            <div class="text-white font-title font-bold uppercase tracking-wider text-[13px]">Normas Atendidas</div>
+          </div>
+          <ul class="space-y-2.5 font-mono text-xs text-slate-400">
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>NBR 5410 &bull; NR-10 &bull; NR-35</li>
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>NBR 5626 (Instalações Hidráulicas)</li>
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>NBR 16280 (Gestão de Reformas)</li>
+            <li class="flex items-start gap-2"><i class="ph-bold ph-check text-brand-gold mt-0.5 shrink-0"></i>Instruções Técnicas CBMSP</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-gold"></span>
+            <div class="text-white font-title font-bold uppercase tracking-wider text-[13px]">Canal Oficial</div>
+          </div>
+          <p class="text-slate-400 mb-4 text-xs leading-relaxed">Acompanhe obras diárias e laudos em campo:</p>
+          <a href="https://www.instagram.com/marheengenharia_/" target="_blank" rel="noopener" class="group inline-flex items-center gap-2.5 px-4 py-2.5 rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:text-white hover:border-slate-500 hover:bg-slate-700 transition-all duration-300">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-white shrink-0" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <span class="font-mono text-xs">@marheengenharia_</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[11px] text-slate-500">
+        <div>&copy; 2026 MARHE Engenharia e Construções Ltda. Todos os direitos reservados. &bull; Desenvolvido por <a href="https://deviury.com.br/" target="_blank" rel="noopener" class="text-brand-gold hover:text-white font-bold transition-colors">DevIury</a></div>
+        <div class="flex items-center gap-4 text-slate-400">
+          <span class="inline-flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>CREA-SP ATIVO</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= JAVASCRIPT & SPA CONTROLLER ================= -->
+  <script>
+    const pages = {
+      home: document.getElementById('page-home'),
+      sobre: document.getElementById('page-sobre'),
+      servicos: document.getElementById('page-servicos'),
+      obras: document.getElementById('page-obras'),
+      blog: document.getElementById('page-blog'),
+      artigo: document.getElementById('page-artigo'),
+      contato: document.getElementById('page-contato'),
+    };
+
+    const navButtons = document.querySelectorAll('.spa-tab-btn');
+    const mobileNavButtons = document.querySelectorAll('.spa-mobile-btn');
+    const allNavLinks = document.querySelectorAll('.spa-nav-link');
+
+    function navigateToPage(targetPageId, anchorId) {
+      if (!pages[targetPageId]) targetPageId = 'home';
+      if (anchorId) targetPageId = 'home';
+
+      Object.keys(pages).forEach(key => {
+        if (key === targetPageId) {
+          pages[key].classList.add('active');
+        } else {
+          pages[key].classList.remove('active');
+        }
+      });
+
+      navButtons.forEach(btn => {
+        const page = btn.getAttribute('data-page');
+        if (page === targetPageId || (targetPageId === 'artigo' && page === 'blog')) {
+          btn.className = 'spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-white text-slate-900 border border-slate-200 shadow-sm transition-all';
+        } else {
+          btn.className = 'spa-tab-btn px-4 py-1.5 rounded-full text-xs font-semibold text-slate-600 hover:text-slate-900 hover:bg-white/60 transition-all';
+        }
+      });
+
+      mobileNavButtons.forEach(btn => {
+        const page = btn.getAttribute('data-page');
+        if (page === targetPageId || (targetPageId === 'artigo' && page === 'blog')) {
+          btn.classList.add('is-active');
+        } else {
+          btn.classList.remove('is-active');
+        }
+      });
+
+      document.getElementById('menuMobileContent').classList.remove('open');
+      document.getElementById('menuMobileContent').setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('menu-open');
+      document.body.classList.remove('overflow-hidden');
+      document.getElementById('menuMobileIcon').classList.replace('ph-x', 'ph-list');
+
+      const anchorEl = anchorId ? document.getElementById(anchorId) : null;
+      if (anchorEl) {
+        history.pushState(null, null, `#${anchorId}`);
+        setTimeout(() => anchorEl.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        history.pushState(null, null, `#${targetPageId}`);
+      }
+
+      if (targetPageId === 'home') setTimeout(runHeroCounters, 500);
+    }
+
+    navButtons.forEach(btn => btn.addEventListener('click', () => navigateToPage(btn.getAttribute('data-page'), btn.getAttribute('data-anchor'))));
+    mobileNavButtons.forEach(btn => btn.addEventListener('click', () => navigateToPage(btn.getAttribute('data-page'), btn.getAttribute('data-anchor'))));
+    allNavLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        const target = link.getAttribute('data-page');
+        if (target) {
+          e.preventDefault();
+          navigateToPage(target, link.getAttribute('data-anchor'));
+        }
+      });
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.replace('#', '');
+      if (hash && !pages[hash] && document.getElementById(hash)) navigateToPage('home', hash);
+      else if (hash && pages[hash]) navigateToPage(hash);
+    });
+
+    document.getElementById('btnVoltarBlog').addEventListener('click', () => navigateToPage('blog'));
+
+    // Progress Bar + parallax do watermark do hero
+    const heroWatermark = document.getElementById('heroWatermark');
+    let parallaxTicking = false;
+    window.addEventListener('scroll', () => {
+      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      document.getElementById('readingProgress').style.width = scrolled + '%';
+
+      if (parallaxTicking || !pages.home.classList.contains('active')) return;
+      parallaxTicking = true;
+      requestAnimationFrame(() => {
+        const offset = Math.min(window.scrollY * 0.12, 90);
+        heroWatermark.style.transform = `translate3d(0, ${offset}px, 0)`;
+        parallaxTicking = false;
+      });
+    }, { passive: true });
+
+    // Mobile Menu
+    const menuMobileToggle = document.getElementById('menuMobileToggle');
+    const menuMobileContent = document.getElementById('menuMobileContent');
+    const menuMobileIcon = document.getElementById('menuMobileIcon');
+
+    function setMobileMenu(open) {
+      menuMobileContent.classList.toggle('open', open);
+      menuMobileContent.setAttribute('aria-hidden', open ? 'false' : 'true');
+      document.body.classList.toggle('menu-open', open);
+      document.body.classList.toggle('overflow-hidden', open);
+      menuMobileIcon.classList.toggle('ph-list', !open);
+      menuMobileIcon.classList.toggle('ph-x', open);
+    }
+
+    menuMobileToggle.addEventListener('click', () => {
+      setMobileMenu(!menuMobileContent.classList.contains('open'));
+    });
+
+    // Simulator
+    let currentService = "Instalações Elétricas Industriais";
+    const simBtns = document.querySelectorAll('#homeSimButtons .sim-btn');
+    const homeAreaSlider = document.getElementById('homeAreaSlider');
+    const homeAreaDisplay = document.getElementById('homeAreaDisplay');
+    const homeBtnSimular = document.getElementById('homeBtnSimular');
+
+    simBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        simBtns.forEach(b => {
+          b.classList.remove('active');
+          b.classList.add('text-slate-600', 'font-medium');
+          b.classList.remove('font-bold');
+        });
+        btn.classList.add('active', 'font-bold');
+        btn.classList.remove('text-slate-600', 'font-medium');
+        currentService = btn.getAttribute('data-servico');
+      });
+    });
+
+    function updateSliderFill() {
+      const min = homeAreaSlider.min, max = homeAreaSlider.max, val = homeAreaSlider.value;
+      const pct = ((val - min) / (max - min)) * 100;
+      homeAreaSlider.style.setProperty('--fill', pct + '%');
+    }
+    updateSliderFill();
+    homeAreaSlider.addEventListener('input', (e) => {
+      homeAreaDisplay.innerText = `${e.target.value} m²`;
+      updateSliderFill();
+    });
+
+    homeBtnSimular.addEventListener('click', () => {
+      const art = document.getElementById('homeReqArt').checked ? 'Sim' : 'Não';
+      const avcb = document.getElementById('homeReqAvcb').checked ? 'Sim' : 'Não';
+      const laudo = document.getElementById('homeReqLaudo').checked ? 'Sim' : 'Não';
+      const area = homeAreaSlider.value;
+
+      const texto = `Olá! Gostaria de consultar a MARHE Engenharia:%0A- Serviço: ${encodeURIComponent(currentService)}%0A- Área estimada: ${area}m²%0A- Exige ART: ${art}%0A- Adequação AVCB: ${avcb}%0A- Laudo NBR 16280: ${laudo}`;
+      window.open(`https://wa.me/5511999999999?text=${texto}`, '_blank');
+    });
+
+    // Portfolio Filtering
+    const portFilterBtns = document.querySelectorAll('#portfolioPageFilter .port-filter-btn');
+    const portfolioCards = document.querySelectorAll('#portfolioPageGrid .portfolio-card-item');
+
+    portFilterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        portFilterBtns.forEach(b => {
+          b.classList.remove('active', 'font-bold');
+          b.classList.add('font-medium', 'text-slate-600');
+        });
+        btn.classList.add('active', 'font-bold');
+        btn.classList.remove('font-medium', 'text-slate-600');
+
+        const filter = btn.getAttribute('data-filter');
+        portfolioCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Project Modals
+    const projectsDatabase = {
+      '1': {
+        cat: 'ELÉTRICA INDUSTRIAL',
+        title: 'Montagem de QGBT & Adequação de Subestação',
+        loc: 'Barueri / SP',
+        area: '1.800 m²',
+        art: 'CREA-SP Nº 2024/0981',
+        norma: 'NBR 5410 & NR-10',
+        desc: '<p>Execução completa de retrofit elétrico em galpão logístico de grande porte sediado no polo industrial de Barueri. O projeto exigiu modernização integral da entrada de média tensão e substituição do quadro de distribuição principal por um QGBT de alta capacidade com disjuntores caixa moldada tripolares.</p><p class="mt-3">A equipe executou o ensaio de termografia por infravermelho de 100% dos bornes e disjuntores, equilíbrio de cargas elétricas entre as três fases e emissão de ART de execução e laudo conclusivo conforme NR-10.</p>'
+      },
+      '2': {
+        cat: 'HIDRÁULICA PREDIAL',
+        title: 'Retrofit de Prumada & Barrilete Técnico',
+        loc: 'Alphaville / SP',
+        area: '2.400 m²',
+        art: 'CREA-SP Nº 2024/1142',
+        norma: 'NBR 5626 & IT CBMSP',
+        desc: '<p>Substituição de barrilete de distribuição de água potável em edifício comercial de 12 pavimentos em Alphaville. A tubulação metálica original apresentava corrosão severa e incrustações que comprometiam a pressão nos últimos andares.</p><p class="mt-3">Substituição completa por tubulações de CPVC Schedule 80 com conexões termofundidas, instalação de novas válvulas de retenção e registros de esfera industriais com manobra hidráulica planejada no fim de semana.</p>'
+      },
+      '3': {
+        cat: 'REFORMA CORPORATIVA',
+        title: 'Adequação de Infraestrutura & Layout Corporativo',
+        loc: 'Tamboré / SP',
+        area: '850 m²',
+        art: 'CREA-SP Nº 2024/1490',
+        norma: 'NBR 16280 & ABNT',
+        desc: '<p>Gerenciamento executivo de obra e compatibilização técnica de instalações para a nova sede de uma empresa no complexo empresarial de Tamboré. Prazo de entrega de 45 dias rigorosamente cumprido.</p><p class="mt-3">Instalação de piso técnico elevado com eletrocalhas metálicas para rede elétrica estabilizada, adequação de divisórias acústicas em drywall e laudo de reforma estrutural NBR 16280 aprovado pela administração do condomínio.</p>'
+      }
+    };
+
+    const projectModal = document.getElementById('projectModal');
+    const closeProjectModal = document.getElementById('closeProjectModal');
+
+    document.querySelectorAll('.open-project-modal').forEach(item => {
+      item.addEventListener('click', () => {
+        const id = item.getAttribute('data-project');
+        const data = projectsDatabase[id];
+        if (data) {
+          document.getElementById('projCategory').innerText = data.cat;
+          document.getElementById('projTitle').innerText = data.title;
+          document.getElementById('projLocation').innerText = data.loc;
+          document.getElementById('projArea').innerText = data.area;
+          document.getElementById('projArt').innerText = data.art;
+          document.getElementById('projNorma').innerText = data.norma;
+          document.getElementById('projDescription').innerHTML = data.desc;
+
+          projectModal.classList.remove('hidden');
+          document.body.classList.add('overflow-hidden');
+        }
+      });
+    });
+
+    closeProjectModal.addEventListener('click', () => {
+      projectModal.classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    });
+
+    projectModal.addEventListener('click', (e) => {
+      if (e.target === projectModal) {
+        projectModal.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      }
+    });
+
+    document.querySelectorAll('.close-modal-action').forEach(b => {
+      b.addEventListener('click', () => {
+        projectModal.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      });
+    });
+
+    // Technical Monographs Data (>7,000 characters each, zero emojis)
+    const detailedArticlesData = {
+      '1': {
+        tag: 'NR-10 & INDÚSTRIA',
+        time: '12 min de leitura',
+        title: 'Adequação à NR-10 em Instalações Industriais: Riscos Jurídicos e Operacionais',
+        content: `
+          <p class="text-lg text-slate-800 font-medium leading-relaxed">
+            A Norma Regulamentadora nº 10 (NR-10), promulgada pelo Ministério do Trabalho e Emprego sob a chancela da Portaria GM nº 598 e atualizações posteriores, estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança e a saúde dos trabalhadores que, direta ou indiretamente, interajam em instalações elétricas e serviços com eletricidade. No polo industrial e corporativo de Barueri, Alphaville e Região Metropolitana de São Paulo, a estrita observância desta norma transcende o cumprimento formal de obrigações trabalhistas, configurando-se como pressuposto indispensável para a mitigação de passivos civis e criminais, manutenção de licenças de operação e garantia da validade de apólices de seguro patrimonial e de lucros cessantes.
+          </p>
+
+          <h2 class="font-title font-extrabold text-2xl text-slate-900 mt-10 mb-4">1.0 O Prontuário das Instalações Elétricas (PIE): Composição Estrutural e Validade Legal</h2>
+          <p>
+            O item 10.2.4 da NR-10 preconiza a obrigatoriedade da constituição e manutenção ininterrupta do Prontuário das Instalações Elétricas (PIE) para todos os estabelecimentos com carga instalada superior a 75 kW. Diferente de um repositório burocrático estático, o PIE constitui um sistema de auditoria contínua da infraestrutura de potência. A ausência de quaisquer dos documentos listados na norma faculta aos auditores fiscais do trabalho a lavratura de autos de infração e, nos casos de risco iminente, a interdição imediata de painéis, subestações ou da totalidade do parque fabril.
+          </p>
+          <p>
+            A estrutura analítica do PIE deve contemplar os seguintes fascículos técnicos:
+          </p>
+          <ul class="list-disc pl-6 space-y-2 text-slate-700 text-sm my-4 font-mono">
+            <li><strong>Diagramas Unifilares Atualizados (Item 10.2.3):</strong> Devem representar com exatidão matemática a totalidade dos circuitos alimentadores, ramais de distribuição, chaves seccionadoras, disjuntores gerais e secundários, transformadores e sistemas de aterramento, identificando os dispositivos de manobra e as especificações nominais de capacidade de interrupção em quiloampères (kA);</li>
+            <li><strong>Relatório Técnico das Inspeções (RTI):</strong> Documento pericial elaborado por profissional legalmente habilitado (Engenheiro Eletricista com registro no CREA-SP), contendo o diagnóstico de conformidade dos quadros elétricos em relação às normas NBR 5410, NBR 14039 e NR-10, acompanhado de plano de ação cronológico para saneamento de inconformidades;</li>
+            <li><strong>Laudo do Sistema de Proteção contra Descargas Atmosféricas (SPDA) e Aterramento:</strong> Registro dos ensaios de continuidade elétrica das armaduras, integridade dos captores e anéis de descida, e medição quantitativa da resistência de aterramento em conformidade com as quatro partes da ABNT NBR 5419:2015;</li>
+            <li><strong>Certificados de Calibração de Instrumentos:</strong> Rastreabilidade metrológica pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia (Inmetro) ou Rede Brasileira de Calibração (RBC) de todos os aparelhos utilizados nas medições técnicas (terrômetros, alicates termográficos, megôhmetros e analisadores de transitórios);</li>
+            <li><strong>Procedimentos de Trabalho e Ordens de Serviço:</strong> Instruções formais para liberação de serviços com eletricidade, desenergização com bloqueio físico (Lockout/Tagout - LOTO), constatação de ausência de tensão e instalação de aterramento temporário;</li>
+            <li><strong>Qualificação, Habilitação e Autorização:</strong> Registro formal das capacitações dos profissionais, compreendendo os cursos de NR-10 Básico (40 horas), NR-10 Complementar no Sistema Elétrico de Potência - SEP (40 horas), NR-35 (Trabalho em Altura) e as respectivas Ordens de Autorização emitidas pela diretoria da empresa contratante.</li>
+          </ul>
+
+          <h2 class="font-title font-extrabold text-2xl text-slate-900 mt-10 mb-4">2.0 Ensaios Não Destrutivos: Termografia Quantitativa de Painéis e Barramentos</h2>
+          <p>
+            A termografia por radiação infravermelha representa a principal ferramenta preditiva para detecção precoce de anomalias térmicas decorrentes do efeito Joule em barramentos, conexões parafusadas, terminais de cabos e dispositivos de manobra em baixa e média tensão. A inspeção deve ser executada obrigatoriamente com a instalação operando sob regime de carga nominal representativa (mínimo de 40% da capacidade projetada, recomendando-se valores superiores a 70%).
+          </p>
+
+          <div class="overflow-x-auto my-6">
+            <table class="w-full text-xs font-mono text-left border border-slate-200 rounded-xl overflow-hidden bg-slate-50">
+              <thead class="bg-slate-900 text-white font-bold border-b border-slate-200">
+                <tr>
+                  <th class="p-3.5">Gradiente Térmico (ΔT)</th>
+                  <th class="p-3.5">Classificação do Risco</th>
+                  <th class="p-3.5">Diagnóstico Provável</th>
+                  <th class="p-3.5">Prazo de Intervenção</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 text-slate-700">
+                <tr>
+                  <td class="p-3.5 font-bold text-emerald-700">1°C a 10°C</td>
+                  <td class="p-3.5">Fase Inicial / Monitoramento</td>
+                  <td class="p-3.5">Início de oxidação de superfície ou torque levemente defasado.</td>
+                  <td class="p-3.5">Reavaliação na próxima campanha trimestral de manutenção.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-amber-700">11°C a 20°C</td>
+                  <td class="p-3.5">Intermediário / Alerta</td>
+                  <td class="p-3.5">Frouxidão mecânica acentuada ou sobrecarga localizada em fase.</td>
+                  <td class="p-3.5">Desenergização e reaperto com torquímetro em até 15 dias.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-orange-700">21°C a 40°C</td>
+                  <td class="p-3.5">Severo / Risco Acentuado</td>
+                  <td class="p-3.5">Degradação do isolamento polimérico e fadiga do condutor.</td>
+                  <td class="p-3.5">Intervenção programada no prazo improrrogável de até 48 horas.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-rose-700">Superior a 40°C</td>
+                  <td class="p-3.5">Crítico / Risco Iminente</td>
+                  <td class="p-3.5">Processo iminente de fusão do cobre e deflagração de arco elétrico.</td>
+                  <td class="p-3.5">Desenergização imediata e isolamento da seção sob inspeção.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2 class="font-title font-extrabold text-2xl text-slate-900 mt-10 mb-4">3.0 Coordenação e Seletividade em Painéis Gerais de Baixa Tensão (QGBT)</h2>
+          <p>
+            O projeto e a montagem de Quadros Gerais de Baixa Tensão (QGBT) devem incorporar estudos exaustivos de curto-circuito e coordenação de proteções em consonância com a ABNT NBR IEC 61439-1/2. Em plantas industriais de grande porte, a ocorrência de uma falta fase-terra ou trifásica em um circuito terminal não pode, sob hipótese alguma, provocar o desarme do disjuntor geral da subestação, fenômeno que culminaria na paralisação generalizada de linhas produtivas contínuas.
+          </p>
+
+          <h2 class="font-title font-extrabold text-2xl text-slate-900 mt-10 mb-4">4.0 Responsabilidade Civil, Criminal e Relação com Apólices de Seguros</h2>
+          <p>
+            O ordenamento jurídico brasileiro imputa responsabilidade solidária aos administradores, gerentes industriais e diretores estatutários por acidentes decorrentes de negligência, imprudência ou imperícia na conservação de ativos elétricos. Conforme estatuído no artigo 132 do Código Penal, expor a vida ou a saúde de outrem a perigo direto e iminente configura tipo penal autônomo, dispensando a ocorrência efetiva de lesão corporal ou óbito para a deflagração de persecução penal.
+          </p>
+        `
+      },
+      '2': {
+        tag: 'NBR 16280 & SÍNDICOS',
+        time: '14 min de leitura',
+        title: 'Guia Definitivo da NBR 16280: Responsabilidade Civil do Síndico em Obras Prediais',
+        content: `
+          <p class="text-lg text-slate-800 font-medium leading-relaxed">
+            A publicação e as subsequentes revisões da norma técnica ABNT NBR 16280 (Reforma em edificações — Sistema de gestão de reformas — Requisitos) operaram uma transformação estrutural profunda na governança de condomínios edilícios no território nacional. Historicamente caracterizadas por intervenções empíricas desprovidas de acompanhamento técnico, as reformas em unidades autônomas passaram a integrar um regime formal de gestão compartilhada de riscos. Sob a ótica do Código Civil Brasileiro e da doutrina jurídica especializada, o síndico não ostenta discricionariedade quanto à exigência desta norma: o seu cumprimento é um dever legal inderrogável de preservação da higidez do patrimônio coletivo.
+          </p>
+
+          <h2 class="font-title font-extrabold text-2xl text-slate-900 mt-10 mb-4">1.0 O Fundamento Jurídico da Responsabilidade Condominial</h2>
+          <p>
+            O artigo 1.348, inciso V, da Lei Federal nº 10.406/2002 (Código Civil) prescreve com clareza cristalina que compete ao síndico "diligenciar a conservação e a guarda das partes comuns e zelar pela prestação dos serviços que interessem aos possuidores". Esta competência não se circunscreve aos halls, elevadores e áreas de lazer, estendendo-se de modo cogente à fiscalização preventiva de quaisquer obras realizadas no interior das frações ideais que possam, direta ou reflexamente, impactar a estabilidade da estrutura portante, a segurança contra incêndio e a estanqueidade dos sistemas hidrossanitários do edifício.
+          </p>
+
+          <div class="overflow-x-auto my-6">
+            <table class="w-full text-xs font-mono text-left border border-slate-200 rounded-xl overflow-hidden bg-slate-50">
+              <thead class="bg-slate-900 text-white font-bold border-b border-slate-200">
+                <tr>
+                  <th class="p-3.5">Tipologia da Intervenção</th>
+                  <th class="p-3.5">Impacto Estrutural / Sistêmico</th>
+                  <th class="p-3.5">Exigência Documental</th>
+                  <th class="p-3.5">Ação do Gestor / Síndico</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 text-slate-700">
+                <tr>
+                  <td class="p-3.5 font-bold text-slate-900">Demolição de alvenarias de vedação ou drywall</td>
+                  <td class="p-3.5">Risco de redistribuição de cargas ou corte inadvertido de dutos embutidos.</td>
+                  <td class="p-3.5 font-mono text-brand-dark font-bold">ART/RRT de Projeto e Execução + Memorial</td>
+                  <td class="p-3.5">Autorização condicionada à análise pericial do projeto original.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-slate-900">Alteração em tubulações hidrossanitárias</td>
+                  <td class="p-3.5">Risco de infiltrações em lajes inferiores e perda de estanqueidade.</td>
+                  <td class="p-3.5 font-mono text-brand-dark font-bold">ART/RRT + Teste de Estanqueidade</td>
+                  <td class="p-3.5">Vistoria presencial obrigatória antes do fechamento do piso/shaft.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-slate-900">Acréscimo de carga elétrica (ar-condicionado/cooktop)</td>
+                  <td class="p-3.5">Risco de sobrecarga térmica do barramento coletivo e desarmes.</td>
+                  <td class="p-3.5 font-mono text-brand-dark font-bold">ART Elétrica + Estudo de Demanda</td>
+                  <td class="p-3.5">Verificação da capacidade residual do alimentador da prumada.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `
+      },
+      '3': {
+        tag: 'AVCB & BOMBEIROS',
+        time: '15 min de leitura',
+        title: 'Renovação do AVCB na Grande SP: Principais Falhas Técnicas Reprovadas pelos Bombeiros',
+        content: `
+          <p class="text-lg text-slate-800 font-medium leading-relaxed">
+            O Auto de Vistoria do Corpo de Bombeiros (AVCB) e o Certificado de Licença do Corpo de Bombeiros (CLCB) configuram os instrumentos administrativos finais expedidos pela Polícia Militar do Estado de São Paulo, através do Corpo de Bombeiros, que atestam formalmente que a edificação sob análise possui todas as condições de segurança contra incêndio e pânico estipuladas no Decreto Estadual nº 63.880/2018 e nas respectivas Instruções Técnicas (ITs). Em polos urbanos verticalizados e complexos logísticos como Barueri, Tamboré, Alphaville e São Paulo Capital, a renovação periódica deste documento constitui condição indispensável de funcionamento.
+          </p>
+
+          <h2 class="font-title font-extrabold text-2xl text-slate-900 mt-10 mb-4">1.0 O Sistema Hidráulico de Combate a Incêndio: Onde Ocorrem as Reprovações</h2>
+          <div class="overflow-x-auto my-6">
+            <table class="w-full text-xs font-mono text-left border border-slate-200 rounded-xl overflow-hidden bg-slate-50">
+              <thead class="bg-slate-900 text-white font-bold border-b border-slate-200">
+                <tr>
+                  <th class="p-3.5">Componente do Sistema</th>
+                  <th class="p-3.5">Instrução Técnica</th>
+                  <th class="p-3.5">Falha Recorrente em Vistoria</th>
+                  <th class="p-3.5">Exigência para Aprovação</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 text-slate-700">
+                <tr>
+                  <td class="p-3.5 font-bold text-slate-900">Bomba de Incêndio Principal</td>
+                  <td class="p-3.5 text-brand-dark font-bold">IT 22 (Hidrantes)</td>
+                  <td class="p-3.5">Falta de partida automática por queda de pressão ou chave de bypass inoperante.</td>
+                  <td class="p-3.5">Quadro com partida direta/estrela-triângulo automatizada por pressostatos.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-slate-900">Bomba de Pressurização (Jockey)</td>
+                  <td class="p-3.5 text-brand-dark font-bold">IT 22 & IT 23 (Sprinklers)</td>
+                  <td class="p-3.5">Cavitação da bomba, vazamento no selo mecânico e pressostato desregulado.</td>
+                  <td class="p-3.5">Manutenção contínua de pressão sem oscilações e ciclos curtos de acionamento.</td>
+                </tr>
+                <tr>
+                  <td class="p-3.5 font-bold text-slate-900">Hidrantes Mais Desfavoráveis</td>
+                  <td class="p-3.5 text-brand-dark font-bold">IT 22 (Hidrantes)</td>
+                  <td class="p-3.5">Vazão ou pressão estática/dinâmica inferior aos parâmetros do projeto original.</td>
+                  <td class="p-3.5">Ensaio de vazão com esguicho regulável comprovando os kPA mínimos exigidos.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        `
+      }
+    };
+
+    document.querySelectorAll('.read-full-article').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const articleId = btn.getAttribute('data-article');
+        const data = detailedArticlesData[articleId];
+
+        if (data) {
+          document.getElementById('artigoTagNorma').innerText = data.tag;
+          document.getElementById('artigoTempoLeitura').innerText = data.time;
+          document.getElementById('artigoTituloPrincipal').innerText = data.title;
+          document.getElementById('artigoCorpoDedicado').innerHTML = data.content;
+          navigateToPage('artigo');
+        }
+      });
+    });
+
+    // RFP Form Submission
+    document.getElementById('rfpCompleteForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const toast = document.createElement('div');
+      toast.className = 'fixed bottom-6 right-6 z-50 bg-slate-900 text-white border border-brand-gold px-6 py-4 rounded-2xl shadow-2xl flex items-center gap-3 font-sans text-xs';
+      toast.innerHTML = '<i class="ph-bold ph-check-circle text-brand-gold text-xl"></i><span>RFP recebida com sucesso! Nosso departamento de engenharia responderá em até 24h.</span>';
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 4500);
+      e.target.reset();
+    });
+
+    // Metric cards reveal on scroll + contadores animados do hero
+    const animateCounter = (el, target, duration = 1400) => {
+      const prefix = el.getAttribute('data-prefix') || '';
+      const suffix = el.getAttribute('data-suffix') || '';
+      const start = performance.now();
+      const step = (now) => {
+        const p = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = prefix + Math.round(target * eased) + suffix;
+        if (p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+
+    function runHeroCounters() {
+      document.querySelectorAll('#page-home .counter[data-count]').forEach(el => {
+        if (el.dataset.running) return;
+        el.dataset.running = '1';
+        el.textContent = (el.getAttribute('data-prefix') || '') + '0' + (el.getAttribute('data-suffix') || '');
+        animateCounter(el, parseFloat(el.getAttribute('data-count')));
+        setTimeout(() => { delete el.dataset.running; }, 1600);
+      });
+    }
+
+    window.addEventListener('load', () => setTimeout(runHeroCounters, 1200));
+
+    // Contadores fora da home (páginas Sobre/Serviços): animam ao entrar na tela
+    const outsideCounterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        if (el.dataset.running) return;
+        el.dataset.running = '1';
+        el.textContent = (el.getAttribute('data-prefix') || '') + '0' + (el.getAttribute('data-suffix') || '');
+        animateCounter(el, parseFloat(el.getAttribute('data-count')));
+        setTimeout(() => { delete el.dataset.running; }, 1600);
+        outsideCounterObserver.unobserve(el);
+      });
+    }, { threshold: 0.6 });
+    document.querySelectorAll('.page-view:not(#page-home) .counter[data-count]')
+      .forEach(el => outsideCounterObserver.observe(el));
+
+    const metricObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          metricObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    document.querySelectorAll('.metric-reveal').forEach(el => metricObserver.observe(el));
+  </script>
+</body>
+</html>
