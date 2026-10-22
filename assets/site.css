@@ -295,12 +295,11 @@
       transform: translateY(-6px);
       box-shadow: 0 16px 40px rgba(200, 160, 32, 0.12), 0 0 0 1px rgba(200, 160, 32, 0.25);
     }
-    .portfolio-card-item .port-icon {
-      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s ease;
+    .portfolio-card-item .port-fig {
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
     }
-    .portfolio-card-item:hover .port-icon {
-      transform: scale(1.15) rotate(-6deg);
-      color: #C8A020;
+    .portfolio-card-item:hover .port-fig {
+      transform: scale(1.06);
     }
 
     /* ===== ANIMAÇÃO SCROLL — CARDS DE MÉTRICAS ===== */
